@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>My Portfolio | Liliya Milanova • Graphic Design • Web • Photographs • Video</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="/css/styles.css"/>
-    <link rel="icon" type="image/png" media="screen" href="/images/favicon.png"/>
+    <link rel="stylesheet" type="text/css" media="screen" href="{{ baseurl }}/css/styles.css"/>
+    <link rel="icon" type="image/png" media="screen" href="{{ baseurl }}/images/favicon.png"/>
 </head>
 <body>
     
@@ -22,16 +22,16 @@
 
     <nav class="main">
         <ul>
-            <li><a href="/about/">About me</a></li>
-            <li><a href="/portfolio/">Portfolio <i class="fas fa-caret-down"></i></a>
+            <li><a href="{{ baseurl }}/about/">About me</a></li>
+            <li><a href="{{ baseurl }}/portfolio/">Portfolio <i class="fas fa-caret-down"></i></a>
                 <ul>
-                    <li><a href="/portfolio/graphic-design/"><i class="fas fa-pencil-alt"></i> Graphic Design</a></li>
-                    <li><a href="/portfolio/web/"><i class="fas fa-desktop"></i> Web</a></li>
-                    <li><a href="/portfolio/photographs/"><i class="fas fa-camera"></i> Photographs</a></li>
-                    <li><a href="/portfolio/video/"><i class="fas fa-video"></i> Video</a></li>
+                    <li><a href="{{ baseurl }}/portfolio/graphic-design/"><i class="fas fa-pencil-alt"></i> Graphic Design</a></li>
+                    <li><a href="{{ baseurl }}/portfolio/web/"><i class="fas fa-desktop"></i> Web</a></li>
+                    <li><a href="{{ baseurl }}/portfolio/photographs/"><i class="fas fa-camera"></i> Photographs</a></li>
+                    <li><a href="{{ baseurl }}/portfolio/video/"><i class="fas fa-video"></i> Video</a></li>
                 </ul>
             </li>
-            <li><a href="/contacts/">Contacts</a></li>
+            <li><a href="{{ baseurl }}/contacts/">Contacts</a></li>
         </ul>
     </nav>
 
@@ -56,16 +56,16 @@
         </section>
     <article class="aboutme">
         <ul>
-            <li><a href="/about/">About me</a></li>
+            <li><a href="{{ baseurl }}/about/">About me</a></li>
         </ul>
     </article>
-    <article class="portfolio">
+    <article class="{{ baseurl }}portfolio">
             <ul>
-            <li><a href="/portfolio/">Portfolio</a></li>
-            <li><a href="/portfolio/graphic-design/">Graphic Design</a></li>
-            <li><a href="/portfolio/web/">Web</a></li> 
-            <li><a href="/portfolio/photographs/">Photographs</a></li>
-            <li><a href="/portfolio/video/">Video</a></li>
+            <li><a href="{{ baseurl }}/portfolio/">Portfolio</a></li>
+            <li><a href="{{ baseurl }}/portfolio/graphic-design/">Graphic Design</a></li>
+            <li><a href="{{ baseurl }}/portfolio/web/">Web</a></li> 
+            <li><a href="{{ baseurl }}/portfolio/photographs/">Photographs</a></li>
+            <li><a href="{{ baseurl }}/portfolio/video/">Video</a></li>
             </ul>
     </article>
     <article class="navcontacts">

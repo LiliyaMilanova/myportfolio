@@ -1,0 +1,130 @@
+form .order {
+    display: flex;
+    position: relative;
+    align-items: center;
+    flex: 1 0 auto;
+}
+
+input {
+    order: 2;
+    flex: 1 0 auto;
+    padding: 0.5rem 0.2rem;
+    margin-right: 1rem;
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+    position: relative;
+    z-index: 2;
+    background: rgb(238, 238, 238);
+    border: none;
+    outline: none;
+}
+
+.fa-search {
+    order: 0;
+    flex: 1 0 auto;
+    z-index: 2;
+    font-size: 0.75rem;
+    position: relative;
+    padding: 0.5rem;
+    border-top-left-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+    color: rgb(109, 109, 109);
+    background: rgb(238, 238, 238);
+}
+
+.order + .actions {
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    border-radius: 0.5rem;
+    z-index: 1;
+}
+
+input:hover + .actions + .fa-search {
+    background: rgb(200, 200, 200);
+}
+
+input:hover {
+    background: rgb(200, 200, 200);
+}
+
+.fa-pencil-alt {
+    color: rgb(0, 102, 160);
+}
+
+.fa-desktop {
+    color: rgb(155, 45, 189);
+}
+
+.fa-camera {
+    color: rgb(0, 153, 10);
+}
+
+.fa-video {
+    color: rgb(192, 17, 17);
+}
+
+.fab + .fab {
+    padding-left: 0.6rem;
+}
+
+.wrap {
+    display: flex;
+    margin: 2rem auto;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    background: rgb(255, 255, 255);
+    border-radius: 0.4rem;
+    box-shadow:0 0.2rem 0.5rem 0 rgba(0, 0, 0, 0.6);
+}
+
+section form {
+    display: flex;
+}
+
+.fieldset {
+    display: block;
+    text-align: center;
+    padding: 2rem 0;
+    width: 100%;
+    outline: none;
+    margin: 1rem 3rem 3rem 3rem;
+    border-radius: 0.4rem;
+    border-color: rgb(249, 174, 24);
+}
+
+#contactinpit {
+    border-radius: 0.5rem;
+    width: 60%;
+    margin: 0.2rem 1rem;
+    padding-right: 0.3rem;
+}
+
+textarea {
+    resize: none;
+    outline: none;
+    font-family: 'Lato', sans-serif;
+    background: rgb(238, 238, 238);
+    border: none;
+    padding: 0.5rem 0 0 0.5rem;
+
+}
+
+textarea:hover {
+    background: rgb(200, 200, 200);
+}
+
+.curcle {
+    display: flex;
+}
+
+#curcle {
+    display: block;
+    content: " ";
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-top: 3rem;
+    margin-right: 0.5rem;
+    border: 3px solid rgb(249, 174, 24);
+}

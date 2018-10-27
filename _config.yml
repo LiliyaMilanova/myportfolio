@@ -1,0 +1,12 @@
+title: My Portfolio
+email: liliya.milannova@gmail.com
+description: My portfolio is created to collect all favorite projects from my previous work - graphic design, posters, web banners and photographs.
+baseurl: ""
+url: " "
+twitter_username: jekyllrb
+github_username:  jekyll
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-feed

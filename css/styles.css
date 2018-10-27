@@ -96,7 +96,7 @@ body {
 .header {
     display: flex;
     flex-wrap: wrap;
-    background-image: url(myportfolio/images/header.png);
+    background-image: url({{site.baseurl}}/images/header.png);
     background-size: cover;
     padding: 8rem 0;
     max-width: 100%;

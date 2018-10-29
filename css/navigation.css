@@ -17,8 +17,11 @@ header {
     align-items: center;
     background: rgb(0, 0, 0);
     position: relative;
+    position: fixed;
+    z-index: 100;
     box-shadow:0 0.2rem 0.5rem 0 rgba(0, 0, 0, 0.3);
 }
+
 
 nav.main ul {
     padding: 0;
@@ -85,7 +88,7 @@ nav.main li:hover > ul {
 
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 890px) {
      form {
          display: none;
      }

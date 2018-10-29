@@ -3,6 +3,8 @@
 @import url('typography.css');
 @import url('navigation.css');
 @import url('forms.css');
+@import url('elements.css');
+
 
 
 body {
@@ -12,6 +14,49 @@ body {
     margin: 0;
     background: rgb(243, 234, 234);
 }
+
+/* style for layout site.html*/
+
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    background-image: url(/myportfolio/images/header.png);
+    background-size: cover;
+    padding: 8rem 0;
+    max-width: 100%;
+    height: auto;
+    box-shadow:0 0.2rem 0.5rem 0 rgba(0, 0, 0, 0.4);
+}
+
+.header h1, h2 {
+    padding-left: 10rem;
+    margin: 0;
+    font-weight: 800;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#button {
+    align-self: flex-end;
+    text-align: center;
+    margin-left: 10rem;
+    margin-top: 1rem;
+    text-decoration: none;
+    padding: 0.3rem 1rem 0.5rem 1rem;
+    border-radius: 2rem;
+    color: rgb(255, 255, 255);
+    background: rgb(249, 174, 24);
+}
+
+#button:hover {
+    background: rgb(0, 0, 0);
+}
+
+/* footer*/
 
 .site-footer {
     margin-top: auto;
@@ -93,46 +138,74 @@ body {
     color: rgb(249, 174, 24);
 }
 
-.header {
-    display: flex;
-    flex-wrap: wrap;
-    background-image: url(/myportfolio/images/header.png);
-    background-size: cover;
-    padding: 8rem 0;
-    max-width: 100%;
-    height: auto;
-}
 
-.header h1, h2 {
-    padding-left: 10rem;
-    margin: 0;
-    font-weight: 800;
-}
+/* style for index.html*/
 
-.info {
+.wrap {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    margin: 2rem auto;
+    align-items: center;
+    width: 90%;
+    background: rgb(255, 255, 255);
+    border-radius: 0.4rem;
+    box-shadow:0 0.2rem 0.5rem 0 rgba(0, 0, 0, 0.6);
 }
 
-#button {
-    align-self: flex-end;
-    text-align: center;
-    margin-left: 10rem;
-    text-decoration: none;
-    padding: 0.3rem 1rem 0.5rem 1rem;
-    border-radius: 2rem;
-    color: rgb(255, 255, 255);
-    background: rgb(249, 174, 24);
+.wrap-content {
+    display: flex;
+    flex-wrap: wrap;
 }
 
-#button:hover {
-    background: rgb(0, 0, 0);
+.what {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    width: 40%;
 }
 
+.what p {
+    color: rgb(130, 130, 130);
+}
+
+.what h4 {
+   text-align: center;
+}
+
+@media screen and (max-width: 500px) {
+    
+    .what {
+        width: 90%;
+    }
+    
+    .wrap-content {
+        flex-direction: column;
+    }
+
+    .header h1, h2 {
+        padding-left: 6rem;
+    }
+
+    #button {
+        align-self: flex-start;
+        margin-left: 7rem;
+    }
+}
 
 @media screen and (max-width: 600px) {
     .wrapper {
         display: block;
     }
+
+    .wrap {
+        margin: 1rem auto;
+        align-items: center;
+        width: 95%;
+    }
+
+    .header h1, h2 {
+        padding-left: 7rem;
+    }
+
 }

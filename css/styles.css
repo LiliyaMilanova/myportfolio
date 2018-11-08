@@ -208,5 +208,23 @@ body {
     .header h1, h2 {
         padding-left: 7rem;
     }
+    
+    .fieldset {
+        margin: 2rem;
+    }
 
+    .fieldset #contactinpit {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .fieldset #contactinpit {
+        width: 80%;
+    }
+
+    .fieldset #reset,
+    .fieldset #submit {
+        width: 80%;
+    }
 }

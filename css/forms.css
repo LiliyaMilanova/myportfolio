@@ -9,14 +9,14 @@ input {
     order: 2;
     flex: 1 0 auto;
     padding: 0.5rem 0.2rem;
-    margin-right: 1rem;
     border-top-right-radius: 0.5rem;
     border-bottom-right-radius: 0.5rem;
+    margin-right: 1rem;
     position: relative;
     z-index: 3;
-    background: transparent;
     border: none;
     outline: none;
+    background: transparent;
 }
 
 .fa-search {
@@ -35,6 +35,7 @@ input {
     position: absolute;
     top: 0; left: 0; right: 0; bottom: 0;
     border-radius: 0.5rem;
+    margin-right: 1rem;
     z-index: 2;
     background: rgb(238, 238, 238);
 }
@@ -67,16 +68,7 @@ input:hover {
     padding-left: 0.6rem;
 }
 
-.wrap {
-    display: flex;
-    margin: 2rem auto;
-    flex-direction: column;
-    align-items: center;
-    width: 90%;
-    background: rgb(255, 255, 255);
-    border-radius: 0.4rem;
-    box-shadow:0 0.2rem 0.5rem 0 rgba(0, 0, 0, 0.6);
-}
+/* style for contacts.html*/
 
 section form {
     display: flex;
@@ -90,14 +82,42 @@ section form {
     outline: none;
     margin: 1rem 3rem 3rem 3rem;
     border-radius: 0.4rem;
-    border-color: rgb(249, 174, 24);
+    border: 1px solid rgb(249, 174, 24);
 }
 
 #contactinpit {
     border-radius: 0.5rem;
     width: 60%;
-    margin: 0.2rem 1rem;
-    padding-right: 0.3rem;
+    margin: 0.2rem 0;
+    padding: 0.5rem;
+    background: rgb(238, 238, 238);
+}
+
+#reset,
+#submit {
+    width: 30%;
+    margin: 0.2rem 0;
+    padding: 0.5rem;
+    font-size: 0.8rem;
+    border-radius: 0.5rem;
+    color: rgb(0, 0, 0);
+    background: rgb(249, 174, 24);
+}
+
+#submit:hover {
+    color: rgb(255, 255, 255);
+    background: rgb(0, 0, 0);
+}
+
+#reset {
+    margin-top: 1.5rem;
+    background: none;
+    color: rgb(0, 0, 0);
+    border: 1px solid rgb(249, 174, 24);
+}
+
+#reset:hover {
+    background: rgb(249, 174, 24);
 }
 
 textarea {
@@ -109,7 +129,7 @@ textarea {
     padding: 0.5rem 0 0 0.5rem;
 
 }
-
+#contactinpit:hover,
 textarea:hover {
     background: rgb(200, 200, 200);
 }

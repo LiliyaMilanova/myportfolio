@@ -113,11 +113,12 @@ section form {
     margin-top: 1.5rem;
     background: none;
     color: rgb(0, 0, 0);
-    border: 1px solid rgb(249, 174, 24);
+    border: 1px solid rgb(200, 200, 200);
 }
 
 #reset:hover {
     background: rgb(249, 174, 24);
+    border: 1px solid rgb(249, 174, 24);
 }
 
 textarea {

@@ -3,7 +3,6 @@
 @import url('typography.css');
 @import url('navigation.css');
 @import url('forms.css');
-@import url('elements.css');
 
 
 
@@ -144,7 +143,7 @@ body {
 .wrap {
     display: flex;
     flex-direction: column;
-    margin: 6rem auto;
+    margin: 3rem auto;
     margin-bottom: 3rem;
     align-items: center;
     width: 90%;
@@ -200,7 +199,6 @@ body {
     }
 
     .wrap {
-        margin: 1rem auto;
         align-items: center;
         width: 95%;
     }
@@ -208,7 +206,7 @@ body {
     .header h1, h2 {
         padding-left: 7rem;
     }
-    
+
     .fieldset {
         margin: 2rem;
     }
@@ -216,6 +214,19 @@ body {
     .fieldset #contactinpit {
         width: 80%;
     }
+
+}
+
+@media screen and (max-width: 800px) {
+    .fieldset #contactinpit {
+        width: 80%;
+    }
+
+    .fieldset #reset,
+    .fieldset #submit {
+        width: 80%;
+    }
+}
 }
 
 @media screen and (max-width: 800px) {

@@ -1,12 +1,6 @@
 .site-title {
-    font-size: 1.8rem;
-    padding: 0.5rem;
     margin: 0;
-}
-
-.site-title a {
-    text-decoration: none;
-    color: rgb(255, 255, 255);
+    padding: 0.5rem 0 0 2rem;
 }
 
 header {

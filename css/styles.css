@@ -137,6 +137,9 @@ body {
     color: rgb(249, 174, 24);
 }
 
+#logo {
+    padding-top: 1rem;
+}
 
 /* style for index.html*/
 

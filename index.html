@@ -1,45 +1,68 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
 layout: site
+title: Home
 ---
 
-<div class="header">
-    <div class="info">
-        <h2>Hello!</h2>
-        <h1>Look my portfolio!</h1>
-        <a id="button" href="/myportfolio/portfolio/">See here...</a>
-    </div>
-</div>
+<!DOCTYPE html>
+<html lang="en">
 
-<section>
-    <div class="wrap">
-        <section class="curcle">
-            <span id="curcle"></span>
-            <h1>WHAT I DO</h1>
-        </section>
-    <div class="wrap-content">
-        <section class="what">
-            <img src="/myportfolio/images/graphic-design.svg" alt="#">
-            <h4>Graphic Design</h4>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
-        </section>
-        <section class="what">
-            <img src="/myportfolio/images/web-design.svg" alt="#">
-            <h4>Web Design</h4>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
-        </section>
-        <section class="what">
-            <img src="/myportfolio/images/photographs.svg" alt="#">
-            <h4>Photographs</h4>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
-        </section>
-        <section class="what">
-            <img src="/myportfolio/images/video.svg" alt="#">
-            <h4>Video</h4>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
-        </section>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Home</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="/css/styles.css" />
+</head>
+
+<body>
+
+    <div class="header">
+        <div class="info">
+            <h2>Hello!</h2>
+            <h1>Look My Portfolio!</h1>
+            <a id="button" href="{{site.baseurl}}/portfolio/graphic-design">See here...</a>
+        </div>
     </div>
-</div>
-</section>
+
+    <main>
+        <div class="wrap">
+            <section class="curcle">
+                <span id="curcle"></span>
+                <h1>WHAT I DO</h1>
+            </section>
+
+            <div class="wrap-content">
+                <section class="what">
+                    <span>
+                        <img src="{{site.baseurl}}/images/graphic-design.png" alt="Graphic Design Icon" title="Graphic Design Icon">
+                    </span>
+                    <h4><a href="{{site.baseurl}}/portfolio/graphic-design">Graphic Design</a></h4>
+                    <p>The projects in the graphic design section show my work in several projects. They include graphic logos and design of a diverse set of elements of corporate identity of brands. The section shows fully realized projects, which are my first steps in the graphic design.</p>
+                </section>
+                <section class="what">
+                    <span>
+                        <img src="{{site.baseurl}}/images/web-design.png" alt="Web Design Icon" title="Web Design Icon">
+                    </span>
+                    <h4><a href="{{site.baseurl}}/portfolio/web-design">Web Design</a></h4>
+                    <p>Section Web Design is very important to me. It shows my experience and development with graphical projects implemented in the online environment. The section includes web banners realized mainly on social networks and several landing pages for the online shop moebebe.com.</p>
+                </section>
+                <section class="what">
+                    <span>
+                        <img src="{{site.baseurl}}/images/photographs.png" alt="Photographs Icon" title="Photographs Icon">
+                    </span>
+                    <h4><a href="{{site.baseurl}}/portfolio/photographs">Photographs</a></h4>
+                    <p>The section shows my first steps in the exciting world of photography, mainly in advertising and product photography. They expose my work on several advertisement photos sessions and also a product image for the online store.</p>
+                </section>
+                <section class="what">
+                    <span>
+                        <img src="{{site.baseurl}}/images/video.png" alt="Video Icon" title="Video Icon">
+                    </span>
+                    <h4><a href="{{site.baseurl}}/portfolio/video">Video</a></h4>
+                    <p>The Video section shows my experience behind the camera with a few video ads. The Projects are created for Slancice shop and realized in social networks. Challenging and exciting decision for me, except addition to technical skills for video editing in them I tested the skills of adirector and screenwriter. Enjoy watching!</p>
+                </section>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>

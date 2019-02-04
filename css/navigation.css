@@ -81,14 +81,122 @@ nav.main li:hover > ul {
     display: none;
 
 }
+/* style for secondary-navbar*/
 
-@media screen and (max-width: 890px) {
-     form {
+#secondary-navbar ul {
+    display: flex;
+    width: 100%;
+    margin-top: 3.4rem;
+    margin-bottom: 0;
+    padding-left: 0;
+    list-style-type: none;
+    box-shadow:0 0.2rem 0.5rem 0 rgba(0, 0, 0, 0.4);
+}
+
+#secondary-navbar-includes ul {
+    display: flex;
+    width: 100%;
+    margin-top: 2rem;
+    margin-bottom: 0;
+    padding-left: 0;
+    list-style-type: none;
+    box-shadow:0 0.2rem 0.5rem 0 rgba(0, 0, 0, 0.4);
+}
+
+#secondary-navbar li {
+    width: 25%;
+    padding: 0.3rem;
+    text-align: center;
+    background: rgb(50, 50, 50);  
+}
+
+#secondary-navbar li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+#secondary-navbar li a:hover {
+    color: rgb(249, 174, 24);
+}
+
+/* style for project-navbar*/
+
+.project-navbar ul {
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 0;
+    margin: 0;
+    list-style-type: none;
+    border-bottom: 1px solid rgb(235, 235, 235);
+    background: rgb(255, 255, 255);
+}
+
+.project-navbar li {
+    padding: 0.8rem;
+    text-align: center;
+}
+
+.project-navbar li a{
+    text-decoration: none;
+    color: rgb(100, 100, 100);
+}
+
+.project-navbar li a:hover {
+    color: rgb(0, 102, 160);
+}
+
+#nav-bar-web li a:hover {
+    color: rgb(155, 45, 189);
+}
+
+#nav-bar-photographs li a:hover {
+    color: rgb(0, 153, 10);
+}
+
+/* style for page-nav*/
+
+.page-nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.page-nav ul {
+    display: flex;
+    padding: 0;
+    margin: 0 4rem 2rem 0;
+    border: 1px solid rgb(150, 150, 150);
+    border-radius: 0.7rem;
+}
+
+.page-nav ul li {
+    padding: 0.2rem 0.5rem;
+    list-style-type: none;
+    color: rgb(249, 174, 24);
+}
+
+.page-nav ul a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.page-nav ul a:hover {
+    color: rgb(249, 174, 24);
+}
+
+#page-nav-web {
+    background: linear-gradient(90deg, rgba(249, 249, 249, 1),
+    rgba(200, 200, 200, 0.8));
+}
+
+
+
+@media screen and (max-width: 950px) {
+    .form-search {
          display: none;
      }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 670px) {
 
     #toggle {
         display: flex;
@@ -106,9 +214,21 @@ nav.main li:hover > ul {
         flex: 1 0 100%;
     }
 
+    #main-nav-toggle:checked + header nav.main ul ul {
+        opacity: 1;
+        margin-top: 2rem;
+        pointer-events: inherit;
+    }
+
     nav.main ul {
         display: flex;
         flex-direction: column;
+    }
+
+    nav.main ul ul{
+        display: block;
+        width: 100%;
+        opacity: 100%;
     }
 
     nav.main ul li {
@@ -131,3 +251,17 @@ nav.main li:hover > ul {
     #main-nav-toggle:checked + header #toggle .fa-bars {
         display: none;
     }
+
+    #secondary-navbar {
+        display: none;
+    }
+
+    .project-navbar ul {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .project-navbar li {
+        border-bottom: 1px solid rgb(235, 235, 235);
+    }
+}

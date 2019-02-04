@@ -5,32 +5,36 @@
 @import url('forms.css');
 
 
-
 body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
     margin: 0;
-    background: rgb(243, 234, 234);
+    background: rgb(255, 255, 255);
 }
 
-/* style for layout site.html*/
+/* style for index.html*/
 
 .header {
     display: flex;
     flex-wrap: wrap;
-    background-image: url(/myportfolio/images/header.png);
+    background-image: url(/myportfolio/images/header.jpg);
     background-size: cover;
-    padding: 8rem 0;
+    padding: 8rem 0 5rem 0;
     max-width: 100%;
     height: auto;
     box-shadow:0 0.2rem 0.5rem 0 rgba(0, 0, 0, 0.4);
 }
 
-.header h1, h2 {
-    padding-left: 10rem;
-    margin: 0;
+.header h1,
+.header h2 {
+    font-size: 3rem;
     font-weight: 800;
+    margin: 0 0 0 10rem;
+}
+
+.header h1 {
+    background: rgb(249, 174, 24);
 }
 
 .info {
@@ -45,15 +49,71 @@ body {
     margin-left: 10rem;
     margin-top: 1rem;
     text-decoration: none;
-    padding: 0.3rem 1rem 0.5rem 1rem;
+    padding: 0.5rem 1rem;
     border-radius: 2rem;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     background: rgb(249, 174, 24);
 }
 
 #button:hover {
+    color: rgb(255, 255, 255);
     background: rgb(0, 0, 0);
 }
+
+#secondary-button {
+    align-self: flex-end;
+    text-align: center;
+    margin-left: 10rem;
+    margin-top: 1rem;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 2rem;
+    color: rgb(0, 0, 0);
+    background: rgb(249, 174, 24);
+}
+
+.wrap {
+    display: flex;
+    flex-direction: column;
+    margin: 4rem auto;
+    align-items: center;
+    width: 90%;
+    border: 1px solid rgb(249, 174, 24);
+    border-radius: 0.4rem;
+}
+
+.wrap-content {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 2rem 0 1.3rem 0;
+}
+
+.what {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 1rem auto;
+    width: 40%;
+}
+
+.what span {
+    text-align: center;
+}
+
+.what > h4 {
+   text-align: center;
+   margin-top: 1.2rem;
+}
+
+.what h4 a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.what h4 a:hover {
+    color: rgb(249, 174, 24);
+}
+
 
 /* footer*/
 
@@ -71,173 +131,929 @@ body {
 
 .wrapper .about {
     flex: 0 0 30%;
-    padding-left: 3rem;
-    padding-right: 1rem;
-    font-size: 0.8rem;
+    padding: 0 1rem 0 3rem;
+}
+
+.wrapper .about p {
     color: rgb(255, 255, 255);
-}
-
-.wrapper .aboutme {
-    flex: 0 0 11%;
     font-size: 0.8rem;
 }
 
-.wrapper .portfolio {
-    flex: 0 0 11%;
+.footer-nav {
+    display: flex;
     font-size: 0.8rem;
+    padding: 1rem 1rem 0 3rem;
+    margin-bottom: 2rem;
 }
 
-.wrapper .navcontacts {
-    flex: 0 0 11%;
-    font-size: 0.8rem;
-    color: rgb(255, 255, 255);
+.footer-nav ul {
+    padding: 0.5rem 1rem;
+    margin: 0;
 }
 
-.wrapper .navcontacts li {
-    list-style-type: none;
+.aboutme ul {
+    padding-left: 0;
 }
 
 .wrapper .contacts {
     display: flex;
+    justify-content: center;
     flex: 0 0 30%;
     margin: 0 auto;
     text-align: center;
-    padding: 0 0.5rem;
+    padding: 0 1rem;
     font-size: 1.5rem;
     color: rgb(255, 255, 255);
 }
 
 .social {
     display: flex;
-    justify-content: space-between;
     list-style-type: none;
+    padding-left: 0;
 }
 
 .social a {
     text-decoration: none;
     color: rgb(255, 255, 255);
-    padding-right: 1.3rem;
+    padding: 0 0.8rem;
 }
 
 .social a:hover {
     color: rgb(249, 174, 24);
 }
 
-.wrapper .aboutme a,
-.wrapper .portfolio a,
-.wrapper .navcontacts a {
+.footer-nav a {
     text-decoration: none;
     font-size: 0.8rem;
     color: rgb(255, 255, 255);
 }
 
-.wrapper .aboutme a:hover,
-.wrapper .portfolio a:hover,
-.wrapper .navcontacts a:hover {
+.footer-nav a:hover {
     color: rgb(249, 174, 24);
+}
+
+.portfolio ul:nth-child(1) a:hover {
+    color: rgb(0, 102, 160);
+}
+
+.portfolio ul:nth-child(2) a:hover {
+    color: rgb(155, 45, 189);
+}
+
+.portfolio ul:nth-child(3) a:hover {
+    color: rgb(0, 153, 10);
+}
+.portfolio ul:nth-child(4) a:hover {
+    color: rgb(192, 17, 17);
 }
 
 #logo {
     padding-top: 1rem;
 }
 
-/* style for index.html*/
+/* style for about-me.html*/
 
-.wrap {
+.header-about-me {
+    background-image: linear-gradient(0deg, rgba(15, 50, 50, 0.4),
+    rgba(249, 174, 24, 1)),
+    url(/myportfolio/images/header-about-me.jpg);
+    background-size: cover;
+    padding: 9rem 0 6rem 0;
+    box-shadow: 0 0.5rem 3rem 0 inset rgba(0, 0, 0, 0.5);
+}
+
+.person {
+    display: flex;
+}
+
+.graphics-software {
     display: flex;
     flex-direction: column;
-    margin: 3rem auto;
+    justify-content: center;
     align-items: center;
-    width: 90%;
-    background: rgb(255, 255, 255);
-    border-radius: 0.4rem;
+    background-image: url(/myportfolio/images/backgound-section-about-me.png);
+    background-size: cover;
+    padding: 5rem;
+}
+
+.avatar {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    width: 50%;
+    padding-top: 3rem;
+}
+
+.avatar ul {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    padding: 0;
+}
+
+.avatar ul li {
+    align-self: flex-start;
+    padding-bottom: 0.5rem;
+    color: rgb(102, 102, 102);
+}
+
+.avatar ul li:first-child {
+    font-weight: bold; 
+}
+
+.avatar .fas {
+    font-size: 0.8rem;
+    padding-right: 0.3rem;
+    color: rgb(249, 174, 24);
+}
+
+.avatar img {
+    border-radius: 50%;
+    margin-bottom: 1rem;
     box-shadow:0 0.2rem 0.5rem 0 rgba(0, 0, 0, 0.3);
 }
 
-.wrap-content {
-    display: flex;
-    flex-wrap: wrap;
+.info-about {
+    width: 50%;
+    margin-right: 2rem;
 }
 
-.what {
+.info-about h2 {
+    background-image: linear-gradient(120deg, rgba(249, 174, 24, 1),
+    rgba(15, 50, 50, 0.8));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border-left: 3px solid rgb(249, 174, 24);
+    padding-left: 1rem;
+}
+
+.icon-about{
+    margin-top: 8rem;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+.icon-about img {
+    background-image: linear-gradient(0deg, rgba(255, 255, 255, 0.3),
+    rgba(255, 255, 255, 0.5));
+    margin: 0rem 2rem 2rem 2rem;
+    padding: 2rem;
+}
+
+/* style for graphic-design.html*/
+
+.header-section-design {
+    background-image: linear-gradient(0deg, rgba(0, 102, 160, 0.8),
+    rgba(99, 43, 134, 0.7)),
+    url(/myportfolio/images/header-graphic-design.jpg);
+    background-size: cover;
+    padding: 6rem 0;
+    box-shadow: 0 0.5rem 3rem 0 inset rgba(0, 0, 0, 0.5);
+}
+
+.header-about-me h1,
+.header-section-video h1,
+.header-section-photographs h1,
+.header-section-web-design h1,
+.header-section-design h1 {
+    text-align: center;
+    margin: 0;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+}
+
+.wrapper-items {
     display: flex;
     flex-direction: column;
+    background: rgb(249, 249, 249);
+}
+
+.descriptions {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin: 0rem auto;
+    padding-top: 3rem;
+}
+
+.base-img {
+    width: 49%;
+    padding: 0 1rem;
+    margin: 3rem auto;
+    text-align: center;
+}
+
+.project-description {
+    display: flex;
+    flex-direction: column;
+    padding-right: 2rem;
+    width: 50%;
+}
+
+.project {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0rem auto;
+    padding: 3rem 0 3.5rem 0;
+}
+
+.project-new-type {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    padding: 5rem 0;
+    background-image: linear-gradient(90deg, rgba(249, 249, 249, 1),
+    rgba(200, 200, 200, 0.8)),
+    url(/myportfolio/images/section-border-background.png);
+    background-repeat: no-repeat;
+}
+
+.project-two-type {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5rem 0;
+}
+
+.project-third-type {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5rem 0;
+    background-image: linear-gradient(90deg, rgba(0, 102, 160, 1),
+    rgba(99, 43, 134, 0.9)),
+    url(/myportfolio/images/section-border-background.png);
+    background-repeat: no-repeat;
+    clip-path: ellipse(100% 60% at 50% 40%);
+}
+
+.simple-img {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.third-img {
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+.secondary-img span:nth-child(2) {
+    padding-left: 4rem;
+}
+
+.third-img img,
+.secondary-img img,
+.simple-img img{
+    max-width: 100%;
+}
+
+.small-img {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.img {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.img img{
+    margin-bottom: 1rem;
+}
+
+.small-img img {
+    margin: 0 2rem 2rem 2rem;
+}
+
+.blok {
+    display: flex;
+    align-items: flex-start;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(90deg, rgba(0, 102, 160, 1),
+    rgba(99, 43, 134, 0.7)),
+    url(/myportfolio/images/background-graphic-design-studentski.jpg);
+    padding: 5rem 0;
+    clip-path: ellipse(100% 60% at 50% 40%);
+}
+
+.blok-subtitle {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding: 0 3rem 2rem 6rem;
+}
+
+.blok-subtitle h3 {
+    margin-top: 0;
+    padding-left: 1rem;
+    color: rgb(255, 255, 255);
+    border-left: 3px solid rgb(255, 255, 255);
+}
+
+.blok-subtitle p {
+    color: rgb(255, 255, 255);
+}
+
+
+.blok img {
+    padding: 0 2rem;
+}
+
+.border {
+    display: flex;
+    padding: 5rem 0;
+}
+
+.border img {
+    border: 1px solid rgb(0, 102, 160);
+}
+
+.project-container {
+    display: flex;
     flex-wrap: wrap;
     margin: 0 auto;
-    width: 40%;
+}
+.img-flyer {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
-.what p {
-    color: rgb(130, 130, 130);
+.img-flyer img {
+    box-shadow:0 0.2rem 0.5rem 0 rgba(0, 0, 0, 0.4);
 }
 
-.what h4 {
-   text-align: center;
+.img-flyer img:first-child {
+    margin: 0 2rem 0 0;
+}
+
+.project-sunshades {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5rem 0 3rem 0;
+}
+
+.wrap-sunshade {
+    display: flex;
+    width: 70%;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0rem auto;
+}
+
+.wrap-sunshade span {
+    padding-bottom: 2rem;
+}
+
+.wrap-sunshade span img {
+    max-width: 100%;
+}
+
+.img-wrap span {
+    padding: 0 1rem;
+    text-align: center;
+    margin: 0rem auto;
+    margin-bottom: 3rem;
+}
+
+.internal-title {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding: 0 3rem 2rem 6rem;
+}
+
+.internal-title h3,
+.project-description h2 {
+    font-weight: 800;
+    background: -webkit-linear-gradient(120deg, rgba(0, 102, 160, 1),
+    rgba(99, 43, 134, 0.9));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding-left: 1rem;
+    margin-top: 0;
+    border-left: 3px solid rgb(99, 43, 134);
+}
+
+.icon {
+    display: flex;
+}
+
+.icon div {
+    padding-right: 1rem;
+}
+
+.short-description {
+    font-size: 0.7rem;
+    padding-bottom: 2.5rem;
+    text-align: center;
+    text-transform: uppercase;
+    color: rgb(102, 102, 102);
+}
+
+.short-description-blok {
+    color: rgb(255, 255, 255);
+}
+
+/* style for web-design.html*/
+
+.header-section-web-design {
+    background-image: linear-gradient(0deg, rgba(155, 45, 189, 0.8),
+    rgba(173, 16, 121, 0.9)),
+    url(/myportfolio/images/header-web-design.jpg);
+    background-size: cover;
+    padding: 6rem 0;
+    box-shadow: 0 0.5rem 3rem 0 inset rgba(0, 0, 0, 0.5);
+}
+
+.web:first-child {
+    font-weight: 800;
+    background-image: linear-gradient(120deg, rgba(155, 45, 189, 0.8),
+    rgba(179, 36, 132, 0.9));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding-left: 1rem;
+    margin-top: 0;
+    border-left: 3px solid rgb(155, 45, 189);
+}
+
+.project-web {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 0rem auto;
+    padding: 5rem 0;
+}
+
+.project-web > .img img{
+    padding-left: 1rem;
+}
+
+.blok-web {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5rem 0;
+    background: linear-gradient(120deg, rgba(155, 45, 189, 0.8),
+    rgba(179, 36, 132, 0.9));
+    clip-path: polygon(0px 16%, 100% 0px, 100% 100%, 0px 100%);
+}
+
+.img-web {
+    padding: 0 1.5rem;
+}
+
+.img-wrap {
+    display: flex;
+    padding: 5rem 0;
+}
+
+.img-wrap:nth-child(odd) {
+    background: linear-gradient(90deg, rgba(249, 249, 249, 1),
+    rgba(200, 200, 200, 0.8));
+}
+
+#top-padding {
+    padding: 0 0 1rem 0;
+}
+
+/* style for photographs.html*/
+
+.header-section-photographs {
+    background-image: linear-gradient(0deg, rgba(0, 153, 10, 0.8),
+    rgba(249, 174, 24, 0.8)),
+    url(/myportfolio/images/header-photographs.jpg);
+    background-size: cover;
+    padding: 6rem 0;
+    box-shadow: 0 0.5rem 3rem 0 inset rgba(0, 0, 0, 0.5);
+}
+
+.photo:first-child {
+    font-weight: 800;
+    background-image: linear-gradient(120deg, rgba(0, 153, 10, 0.8),
+    rgba(249, 174, 24, 0.8));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding-left: 1rem;
+    margin-top: 0;
+    border-left: 3px solid rgb(0, 153, 10);
+}
+
+/* style for modal/lightbox*/
+
+.row > .column {
+    padding: 1rem;
+}
+  
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+.row {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 4.5rem 0;
+}
+  
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 100;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: black;
+}
+  
+.modal-content {
+    position: relative;
+    margin: auto;
+    padding: 0;
+    width: 90%;
+    max-width: 800px;
+}
+  
+.close {
+    color: white;
+    position: absolute;
+    top: 80px;
+    right: 220px;
+    font-size: 35px;
+    font-weight: bold;
+}
+  
+.close:hover,
+.close:focus {
+    color: #999;
+    text-decoration: none;
+    cursor: pointer;
+}
+  
+.mySlides {
+    display: none;
+}
+  
+
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+}
+  
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+  
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+  
+
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+.caption-container {
+    text-align: center;
+    background-color: black;
+    padding: 2px 16px;
+    color: white;
+}
+  
+img.demo {
+    opacity: 0.6;
+}
+  
+.active,
+.demo:hover {
+    opacity: 1;
+}
+  
+img.hover-shadow {
+    transition: 0.3s;
+}
+  
+.hover-shadow:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* style for video.html*/
+
+.header-section-video {
+    background-image: linear-gradient(0deg, rgba(15, 50, 50, 0.8),
+    rgba(192, 17, 17, 0.7)),
+    url(/myportfolio/images/header-video.jpg);
+    background-size: cover;
+    padding: 6rem 0;
+    box-shadow: 0 0.5rem 3rem 0 inset rgba(0, 0, 0, 0.5);
+}
+
+.video:first-child {
+    font-weight: 800;
+    background-image: linear-gradient(120deg, rgba(192, 17, 17, 0.8),
+    rgba(15, 50, 50, 0.8));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding-left: 1rem;
+    margin-top: 0;
+    border-left: 3px solid rgb(192, 17, 17);
+}
+
+.video-container {
+    display: flex;
+    align-items: flex-start;
+    padding: 5rem 0;
+}
+
+.video-container:nth-child(odd) {
+    background-image: linear-gradient(90deg, rgba(249, 249, 249, 1),
+    rgba(200, 200, 200, 0.8));
+}
+
+.video-frame {
+    padding: 0rem 1.5rem;
+}
+
+@media screen and (max-width: 1200px) {
+    .third-img,
+    .secondary-img {
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+    }
+
+    .third-img span,
+    .secondary-img span {
+        text-align: center;
+    }
+
+    .secondary-img span:nth-child(2) {
+        padding-left: 0
+    }
+    
+}
+
+@media screen and (max-width: 1124px) {
+    .base-img {
+        width: 100%;
+    }
+   
+    #sunshane-descriptions {
+       flex-direction: column;
+   }
+
+   .project-description {
+        width: 90%;
+        margin: 0 auto;
+   }
+  
+   #project-description-sunshane {
+        width: 90%;
+   }
+
+    .project-web img,
+    .border img,
+    .project img {
+       max-width: 100%;
+       height: auto;
+   }
+
+   .img-wrap {
+       flex-direction: column;
+   }
+
+   .img-wrap span {
+        text-align: center;
+    }
+
+    .img span {
+        max-width: 100%;
+        margin-bottom: 3rem;
+        text-align: center;
+    }
+
+    .img-flyer img:first-child {
+        margin: 0 0 1.5rem 0;
+    }
+
+    .img-web {
+        max-width: 100%;
+        height: auto;
+        margin: 0 auto;
+    }
+
+    .project-web > .img img{
+        padding-left: 0;
+    }
+
+    .border {
+        flex-direction: column;
+    }
+
+    .project-new-type .simple-img
+    .border .img {
+        margin: 0 auto;
+    }
+
+    .project-two-type,
+    .project-new-type {
+        flex-direction: column;
+    }
+
+    .video-container {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 5rem 0;
+    }
+
+    .video-frame {
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .descriptions {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .base-img {
+        width: 100%;
+        margin: 2rem auto;
+    }
+
+    .base-img img {
+        max-width: 100%;  
+    }
+
+    .project-description {
+        width: 90%;
+        padding: 0;
+    }
+
+    .blok {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .blok-subtitle,
+    .internal-title {
+        width: 90%;
+        margin: 0 auto;
+        padding: 0 1.5rem 2rem 1.5rem;
+    }
+
+    .simple-img {
+        width: 80%;
+    }
+
+    .wrap-sunshade {
+        width: 90%;
+    }
+    
+    .blok-web img,
+    .blok img {
+        max-width: 70%;
+        height: auto;
+        padding: 0;
+    }
+
+    .project-container img {
+        max-width: 90%;
+        height: auto;
+    }
+
+    .project-container img img {
+        max-width: 100%;
+    }
+    
+    .img-web img {
+        max-width: 100%;
+    }
+
+    .video-container {
+        width: 100%;
+    }
+
+
+
+@media screen and (max-width: 680px) {
+    .header h1,
+    .header h2 {
+        font-size: 3rem;
+        font-weight: 800;
+        margin: 0 0 0 2rem;
+    }
+
+    .what {
+        width: 90%;
+    }
+
+    .img {
+        max-width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .column {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .column img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .avatar {
+        width: 100%;
+    }
+
+    .person {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .info-about {
+        width: 90%;
+    }
+
+    .icon-about h5 {
+        margin-top: 5rem;
+    }
+
+    .border .img {
+        margin: 0;
+        padding: 0;
+    }
+
+    .secondary-img img {
+        padding: 0 1rem;
+    }
+
+    .video-frame iframe {
+        max-width: 100%;
+    }
 }
 
 @media screen and (max-width: 500px) {
     
-    .what {
-        width: 90%;
+    .header h1,
+    .header h2 {
+        font-size: 2rem;
+        font-weight: 800;
+        margin: 0 0 0 2rem;
     }
-    
+
     .wrap-content {
         flex-direction: column;
     }
 
-    .header h1, h2 {
-        padding-left: 6rem;
+    .small-img {
+        max-width: 100%;
     }
 
-    #button {
-        align-self: flex-start;
-        margin-left: 7rem;
-    }
-}
-
-@media screen and (max-width: 600px) {
-    .wrapper {
-        display: block;
+    .small-img img {
+        max-width: 100%;
+        margin: 2rem 0;
     }
 
-    .wrap {
-        align-items: center;
-        width: 95%;
+    .wrap-sunshade {
+        padding-left: 0; 
     }
 
-    .header h1, h2 {
-        padding-left: 7rem;
-    }
-
-    .fieldset {
-        margin: 2rem;
-    }
-
-    .fieldset #contactinpit {
-        width: 80%;
-    }
-
-}
-
-@media screen and (max-width: 800px) {
-    .fieldset #contactinpit {
-        width: 80%;
-    }
-
-    .fieldset #reset,
-    .fieldset #submit {
-        width: 80%;
-    }
-}
-}
-
-@media screen and (max-width: 800px) {
-    .fieldset #contactinpit {
-        width: 80%;
-    }
-
-    .fieldset #reset,
-    .fieldset #submit {
-        width: 80%;
+    .row > .column {
+        padding: 0.5rem 0;
     }
 }

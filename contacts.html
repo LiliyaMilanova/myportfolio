@@ -5,38 +5,52 @@ permalink: /contacts/
 ---
 
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Contacts</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="/css/styles.css" />
 </head>
+
 <body>
 
-    <section>
-        <div class="wrap">
+    <main>
+        <div class="wrap-contact">
             <section class="curcle">
-            <span id="curcle"></span>
-            <h1>Contact Me</h1>
+                <span id="curcle"></span>
+                <h1>Contact Me</h1>
             </section>
 
-            <form action="#" method="POST">
-                <fieldset class="fieldset">
-                    <input id='contactinpit' type="text" name="your name" placeholder="Your name">
-                    <input id='contactinpit' type="text" name="your email" placeholder="Your Email">
-                    <input id='contactinpit' type="text" name="subject" placeholder="Subject">
-                    <textarea name="message" id="contactinpit" cols="20" rows="5" placeholder="Message..."></textarea>
-                    
-                 <section>
-                    <input id="reset" type="reset" value="Reset">
-                    <input id="submit" type="submit" name="submit" value="Send Message">
+            <form class="contact-form" action="#" method="POST">
+
+                <section id="graphic-contact-icon">
+                    <img src="{{site.baseurl}}images/contact-form-graphic.png" alt="Mail Graphic">
+                    <ul class="social">
+                        <li><a class="fab fa-github" href="https://github.com/LiliyaMilanova" target="blank"></a></li>
+                        <li><a class="fab fa-linkedin-in" href="https://www.linkedin.com/in/liliya-milanova" target="blank"></a></li>
+                        <li><a class="fab fa-youtube" href="https://www.youtube.com/channel/UC3w---mZFBePhyDT3Jkj6fg?view_as=subscriber" target="blank"></a></li>
+                    </ul>
                 </section>
-                </fieldset>
+
+                <section class="contact-fields">
+                    <input id='contactinpit' type="text" name="your name" placeholder="Your name">
+                    <input id='contactinpit' type="e-mail" name="your email" placeholder="Your Email">
+                    <input id='contactinpit' type="text" name="theme" placeholder="Subject">
+                    <textarea name="message" id="contactinpit" cols="20" rows="5" placeholder="Message..."></textarea>
+
+                    <article>
+                        <input id="reset" type="reset" value="Reset">
+                        <input id="submit" type="submit" name="submit" value="Send Message">
+                    </article>
+                </section>
             </form>
+
         </div>
-    </section>
-    
+    </main>
+
 </body>
+
 </html>

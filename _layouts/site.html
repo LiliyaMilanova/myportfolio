@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>My Portfolio | Liliya Milanova • Graphic Design • Web • Photographs • Video</title>
+    <title>My Portfolio | Liliya Milanova • Graphic Design • Web Design • Photographs • Video</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="{{site.baseurl}}/css/styles.css" />
     <link rel="icon" type="image/png" media="screen" href="{{site.baseurl}}/images/favicon.png" />
@@ -16,7 +16,7 @@
 
     <header>
         <p class="site-title">
-            <a href="{{site.baseurl}}/">
+            <a href="{{site.baseurl}}">
                 <img src="{{site.baseurl}}images/logo.png" alt="logo">
             </a></p>
 
@@ -27,12 +27,12 @@
 
         <nav class="main">
             <ul>
-                <li><a href="{{site.baseurl}}/about/">About me</a></li>
-                <li><a href="{{site.baseurl}}/portfolio/">Portfolio <i class="fas fa-caret-down"></i></a>
+                <li><a href="{{site.baseurl}}/about-me/">About Me</a></li>
+                <li><a href="{{site.baseurl}}/portfolio/graphic-design/"></i>Portfolio <i class="fas fa-caret-down"></i></a>
                     <ul>
                         <li><a href="{{site.baseurl}}/portfolio/graphic-design/"><i class="fas fa-pencil-alt"></i>
                                 Graphic Design</a></li>
-                        <li><a href="{{site.baseurl}}/portfolio/web/"><i class="fas fa-desktop"></i> Web</a></li>
+                        <li><a href="{{site.baseurl}}/portfolio/web-design/"><i class="fas fa-desktop"></i> Web Design</a></li>
                         <li><a href="{{site.baseurl}}/portfolio/photographs/"><i class="fas fa-camera"></i> Photographs</a></li>
                         <li><a href="{{site.baseurl}}/portfolio/video/"><i class="fas fa-video"></i> Video</a></li>
                     </ul>
@@ -41,7 +41,7 @@
             </ul>
         </nav>
 
-        <form action="#" method="POST">
+        <form class="form-search" action="#" method="POST">
             <span class="order">
                 <input type="text" placeholder="Search">
                 <span class="actions"></span>
@@ -55,38 +55,48 @@
 
     <footer class="site-footer">
         <div class="wrapper">
+
             <section class="about">
                 <img id="logo" src="{{site.baseurl}}images/logo.png" alt="logo">
-                <p>My portfolio is created to collect all favorite projects from my previous work - graphic design,
-                    posters, web banners and photographs.</p>
+                <p>My portfolio is created to collect all favorite projects from my previous work - graphic design, posters, web banners and photographs.</p>
                 <p>© 2018 Liliya Milanova</p>
             </section>
-            <article class="aboutme">
-                <ul>
-                    <li><a href="{{site.baseurl}}/about/">About me</a></li>
-                </ul>
-            </article>
-            <article class="portfolio">
-                <ul>
-                    <li><a href="{{site.baseurl}}/portfolio/">Portfolio</a></li>
-                    <li><a href="{{site.baseurl}}/portfolio/graphic-design/">Graphic Design</a></li>
-                    <li><a href="{{site.baseurl}}/portfolio/web/">Web</a></li>
-                    <li><a href="{{site.baseurl}}/portfolio/photographs/">Photographs</a></li>
-                    <li><a href="{{site.baseurl}}/portfolio/video/">Video</a></li>
-                </ul>
-            </article>
-            <article class="navcontacts">
-                <ul>
-                    <li><a href="{{site.baseurl}}/contacts/">Contacts</a></li>
-                </ul>
-            </article>
+
+            <section class="footer-nav">
+                <article class="aboutme">
+                    <ul>
+                        <li><a href="{{site.baseurl}}/about/">About me</a></li>
+                    </ul>
+                </article>
+                <article class="portfolio">
+                    <ul>
+                        <li><a href="{{site.baseurl}}/portfolio/graphic-design/">Graphic Design</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="{{site.baseurl}}/portfolio/web-design/">Web Design</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="{{site.baseurl}}/portfolio/photographs/">Photographs</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="{{site.baseurl}}/portfolio/video/">Video</a></li>
+                    </ul>
+                </article>
+                <article class="navcontacts">
+                    <ul>
+                        <li><a href="{{site.baseurl}}/contacts/">Contacts</a></li>
+                    </ul>
+                </article>
+            </section>
+
             <section class="contacts">
                 <ul class="social">
-                    <li><a class="fab fa-github" href="https://github.com/LiliyaMilanova"></a></li>
-                    <li><a class="fab fa-linkedin-in" href="https://www.linkedin.com/in/liliya-milanova"></a></li>
-                    <li><a class="fab fa-google-plus-g" href="https://plus.google.com/u/0/117522004120139488894"></a></li>
+                    <li><a class="fab fa-github" href="https://github.com/LiliyaMilanova" target="blank"></a></li>
+                    <li><a class="fab fa-linkedin-in" href="https://www.linkedin.com/in/liliya-milanova" target="blank"></a></li>
+                    <li><a class="fab fa-youtube" href="https://www.youtube.com/channel/UC3w---mZFBePhyDT3Jkj6fg?view_as=subscriber" target="blank"></a></li>
                 </ul>
             </section>
+
         </div>
     </footer>
 </body>

@@ -70,24 +70,56 @@ input:hover {
 
 /* style for contacts.html*/
 
-section form {
+.wrap-contact {
     display: flex;
+    flex-direction: column;
+    margin: 3.5rem auto;
+    margin-bottom: 4rem;
+    align-items: center;
+    width: 100%;
 }
 
-.fieldset {
-    display: block;
+.contact-form {
+    display: flex;
+    width: 70%;
     text-align: center;
-    padding: 2rem 0;
-    width: 100%;
+    padding: 4rem 1rem;
     outline: none;
-    margin: 1rem 3rem 3rem 3rem;
+    margin-top: 2.2rem;
     border-radius: 0.4rem;
     border: 1px solid rgb(249, 174, 24);
 }
 
+#graphic-contact-icon {
+    width: 33%;
+    text-align: center;
+}
+
+#graphic-contact-icon > .social {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    font-size: 1.5rem;
+    padding-left: 0;
+}
+
+#graphic-contact-icon > .social a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding: 0.8rem;
+}
+
+#graphic-contact-icon > .social a:hover {
+    color: rgb(249, 174, 24);
+}
+
+.contact-fields {
+    width: 67%;
+}
+
 #contactinpit {
     border-radius: 0.5rem;
-    width: 60%;
+    width: 80%;
     margin: 0.2rem 0;
     padding: 0.5rem;
     background: rgb(238, 238, 238);
@@ -95,7 +127,7 @@ section form {
 
 #reset,
 #submit {
-    width: 30%;
+    width: 40%;
     margin: 0.2rem 0;
     padding: 0.5rem;
     font-size: 0.8rem;
@@ -117,8 +149,7 @@ section form {
 }
 
 #reset:hover {
-    background: rgb(249, 174, 24);
-    border: 1px solid rgb(249, 174, 24);
+    background: rgb(200, 200, 200);
 }
 
 textarea {
@@ -135,7 +166,7 @@ textarea:hover {
     background: rgb(200, 200, 200);
 }
 
-.curcle {
+/* .curcle {
     display: flex;
 }
 
@@ -145,7 +176,71 @@ textarea:hover {
     width: 20px;
     height: 20px;
     border-radius: 50%;
-    margin-top: 3rem;
+    margin-top: 4.3rem;
     margin-right: 0.5rem;
     border: 3px solid rgb(249, 174, 24);
 }
+
+#curcle-items {
+    display: block;
+    content: " ";
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin: 2.3rem 1rem 1rem 0;
+    border: 5px solid rgb(184, 184, 184);
+} */
+
+/* style for Back to Top*/
+
+.back-to-top {
+    display: flex;
+    justify-content: flex-end;
+    padding: 0.5rem;
+}
+
+.back-to-top .fas {
+    text-decoration: none;
+    font-size: 2rem;
+    color: rgb(150, 150, 150);
+}
+
+.back-to-top a:hover {
+    color: rgb(0, 0, 0);
+}
+
+@media screen and (max-width: 1124px) {
+
+    .contact-form {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #graphic-contact-icon {
+        width: 100%;
+        text-align: center;
+    }
+
+    #graphic-contact-icon img {
+        max-width: 100%;
+    }
+
+    .contact-fields {
+        width: 100%;
+    }
+
+    #contactinpit {
+        width: 100%;
+    }
+
+    #reset,
+    #submit {
+        width: 49%;
+    }
+}
+
+@media screen and (max-width: 680px) {
+
+    .contact-form {
+        width: 90%;
+    }

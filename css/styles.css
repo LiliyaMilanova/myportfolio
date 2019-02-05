@@ -1026,6 +1026,14 @@ img.hover-shadow {
     .video-frame iframe {
         max-width: 100%;
     }
+    
+     .site-title {
+        padding: 0.5rem 0 0 0.5rem;
+    }
+
+    .site-title img {
+        width: 70%;
+    }
 }
 
 @media screen and (max-width: 500px) {

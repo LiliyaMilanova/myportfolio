@@ -1007,6 +1007,7 @@ img.hover-shadow {
 
     .info-about {
         width: 90%;
+        margin: 0 auto;
     }
 
     .icon-about h5 {

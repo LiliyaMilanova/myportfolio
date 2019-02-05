@@ -264,4 +264,8 @@ nav.main li:hover > ul {
     .project-navbar li {
         border-bottom: 1px solid rgb(235, 235, 235);
     }
+    
+    .site-title {
+        width: 70%;
+    }
 }

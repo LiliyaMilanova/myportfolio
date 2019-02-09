@@ -189,6 +189,13 @@ nav.main li:hover > ul {
 }
 
 
+@media screen and (max-width: 1200px) {
+
+    #secondary-navbar ul {
+        margin-top: 3.7rem;
+    }
+}
+
 
 @media screen and (max-width: 950px) {
     .form-search {

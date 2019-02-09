@@ -970,6 +970,15 @@ img.hover-shadow {
 
 
 @media screen and (max-width: 680px) {
+    
+     .header-section-design,
+    .header-section-web-design,
+    .header-section-photographs,
+    .header-section-video,
+    .header-about-me {
+        padding-top: 8rem;
+    }
+    
     .header h1,
     .header h2 {
         font-size: 3rem;

@@ -840,6 +840,8 @@ img.hover-shadow {
 .wrap-404 p {
     text-transform: uppercase;
     font-weight: bold;
+    width: 80%;
+    text-align: center;
 }
 
 @media screen and (max-width: 1200px) {

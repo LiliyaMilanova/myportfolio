@@ -43,22 +43,23 @@ body {
     align-items: flex-start;
 }
 
-#button {
+.button {
     align-self: flex-end;
     text-align: center;
     margin-left: 10rem;
     margin-top: 1rem;
+    font-weight: bold;
     text-decoration: none;
+    text-transform: uppercase;
     padding: 0.5rem 1rem;
     border-radius: 2rem;
     color: rgb(0, 0, 0);
     background: rgb(249, 174, 24);
 }
 
-#button:hover {
+.button:hover {
     color: rgb(255, 255, 255);
     background: rgb(0, 0, 0);
-    outline-style: none;
 }
 
 #secondary-button {
@@ -71,6 +72,11 @@ body {
     border-radius: 2rem;
     color: rgb(0, 0, 0);
     background: rgb(249, 174, 24);
+}
+
+#button-404 {
+    align-self: center;
+    margin: 0.5rem 1rem 7rem 1rem;
 }
 
 .wrap {
@@ -808,6 +814,34 @@ img.hover-shadow {
     padding: 0rem 1.5rem;
 }
 
+/* style for 404.html*/
+
+.wrap-404 {
+    display: flex;
+    flex-direction: column;
+    margin: 4rem auto;
+    margin-top: 6rem;
+    align-items: center;
+    width: 90%;
+    border: 1px solid rgb(249, 174, 24);
+    border-radius: 0.4rem;
+}
+
+.wrap-404 h1 {
+    font-size: 4rem;
+    font-weight: bold;
+    background-image: linear-gradient(120deg, rgba(249, 174, 24, 1),
+    rgba(15, 50, 50, 0.8));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border-bottom: 2px solid rgb(249, 174, 24);
+}
+
+.wrap-404 p {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
 @media screen and (max-width: 1200px) {
     .third-img,
     .secondary-img {
@@ -906,7 +940,15 @@ img.hover-shadow {
 }
 
 @media screen and (max-width: 800px) {
-    
+
+    .header-section-design,
+    .header-section-web-design,
+    .header-section-photographs,
+    .header-section-video,
+    .header-about-me {
+        padding-top: 8rem;
+    }
+
     .descriptions {
         flex-direction: column;
         width: 100%;
@@ -974,14 +1016,6 @@ img.hover-shadow {
 
 @media screen and (max-width: 680px) {
     
-    .header-section-design,
-    .header-section-web-design,
-    .header-section-photographs,
-    .header-section-video,
-    .header-about-me {
-        padding-top: 8rem;
-    }
-    
     .header h1,
     .header h2 {
         font-size: 3rem;
@@ -1040,18 +1074,10 @@ img.hover-shadow {
     .video-frame iframe {
         max-width: 100%;
     }
-    
-     .site-title {
-        padding: 0.5rem 0 0 0.5rem;
-    }
-
-    .site-title img {
-        width: 70%;
-    }
 }
 
 @media screen and (max-width: 500px) {
-    
+
     .header h1,
     .header h2 {
         font-size: 2rem;

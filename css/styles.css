@@ -632,6 +632,7 @@ body {
     rgba(249, 174, 24, 0.8)),
     url(/myportfolio/images/header-photographs.jpg);
     background-size: cover;
+    background-position: center;
     padding: 6rem 0;
     box-shadow: 0 0.5rem 3rem 0 inset rgba(0, 0, 0, 0.5);
 }
@@ -776,6 +777,7 @@ img.hover-shadow {
     rgba(192, 17, 17, 0.7)),
     url(/myportfolio/images/header-video.jpg);
     background-size: cover;
+    background-position: center;
     padding: 6rem 0;
     box-shadow: 0 0.5rem 3rem 0 inset rgba(0, 0, 0, 0.5);
 }

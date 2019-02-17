@@ -273,6 +273,10 @@ nav.main li:hover > ul {
     }
     
     .site-title {
+        padding: 0.5rem 0 0 0.5rem;
+    }
+
+    .site-title img {
         width: 70%;
     }
 }

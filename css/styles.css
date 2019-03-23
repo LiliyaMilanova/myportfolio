@@ -31,12 +31,9 @@ body {
 .header h1,
 .header h2 {
     font-size: 3rem;
-    font-weight: 800;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
     margin: 0 0 0 10rem;
-}
-
-.header h1 {
-    background: rgb(249, 174, 24);
 }
 
 .info {

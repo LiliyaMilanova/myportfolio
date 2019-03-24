@@ -8,6 +8,7 @@ form .order {
 input {
     order: 2;
     flex: 1 0 auto;
+    font-size: 12px;
     padding: 0.5rem 0.2rem;
     border-top-right-radius: 0.5rem;
     border-bottom-right-radius: 0.5rem;
@@ -120,6 +121,7 @@ input:hover {
 #contactinpit {
     border-radius: 0.5rem;
     width: 80%;
+    font-size: 12px;
     margin: 0.2rem 0;
     padding: 0.5rem;
     background: rgb(238, 238, 238);
@@ -155,6 +157,7 @@ input:hover {
 textarea {
     resize: none;
     outline: none;
+    font-size: 12px;
     font-family: 'Lato', sans-serif;
     background: rgb(238, 238, 238);
     border: none;

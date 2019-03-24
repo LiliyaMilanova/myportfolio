@@ -19,7 +19,7 @@ body {
 .header {
     display: flex;
     flex-wrap: wrap;
-    background-image: linear-gradient(0deg, rgba(0, 102, 160, 0.8), rgba(99, 43, 134, 0.7)), 
+    background-image: linear-gradient(120deg, rgba(0, 102, 160, 0.8), rgba(0, 0, 0, 0.1)), 
     url(/myportfolio/images/header.jpg);
     background-size: cover;
     padding: 8rem 0 5rem 0;

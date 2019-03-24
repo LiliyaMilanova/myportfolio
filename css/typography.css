@@ -3,7 +3,7 @@ html {
     color: rgb(0, 0, 0);
 }
 
-body, select, option, input, table, th, td {
+body, select, option, input, textarea, table, th, td {
     font: inherit;
 }
 
@@ -22,6 +22,10 @@ h6 { font-size: 1.2rem}
 
 h1 + h2 {
     margin-top: 0.9em;
+}
+
+input {
+    font-size: 12px
 }
 
 p {

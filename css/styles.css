@@ -47,7 +47,6 @@ body {
 }
 
 .button {
-    align-self: flex-end;
     text-align: center;
     margin-left: 10rem;
     margin-top: 1rem;

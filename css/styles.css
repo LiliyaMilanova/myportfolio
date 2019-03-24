@@ -37,6 +37,7 @@ body {
 
 .header p {
     color: rgb(255, 255, 255);
+    margin: 0 0 0 10rem;
 }
 
 .info {

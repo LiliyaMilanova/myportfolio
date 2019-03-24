@@ -24,10 +24,6 @@ h1 + h2 {
     margin-top: 0.9em;
 }
 
-input {
-    font-size: 12px;
-}
-
 p {
     margin: 0;
     padding-bottom: 1.5rem;

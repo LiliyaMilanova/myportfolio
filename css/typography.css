@@ -1,15 +1,15 @@
 html {
-    font: 16px/1.5 Comfortaa, Lato, Helvetica, sand-serif;
+    font: 16px/1.5 Comfortaa, Open Sans, Helvetica, sand-serif;
     color: rgb(0, 0, 0);
 }
 
-body, select, option, table, th, td {
+body, select, option, input, table, th, td {
     font: inherit;
 }
 
 h1, h2, h3, h4, h5, h6 {
     font-family: Open Sans, sand-serif;
-    margin: 1.4em 0 0.5em 0;
+    margin: 1.4em 0 1em 0;
     padding: 0;
 }
 

@@ -56,7 +56,7 @@ nav.main ul li a {
 
 nav.main li:hover > a,
 nav.main a:hover {
-    color: rgb(155, 45, 189);
+    color: rgb(255, 255, 255);
 }
 
 

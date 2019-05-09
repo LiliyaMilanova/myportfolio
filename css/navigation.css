@@ -54,6 +54,11 @@ nav.main ul li a {
     border-width: 0.5rem 0;
 }
 
+nav.main ul li a:first-child {
+    padding-left: none;
+
+}
+
 nav.main li:hover > a,
 nav.main a:hover {
     color: rgb(255, 255, 255);

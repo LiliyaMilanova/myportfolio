@@ -38,11 +38,11 @@ input {
     border-radius: 0.5rem;
     margin-right: 1rem;
     z-index: 2;
-    background: rgb(238, 238, 238);
+    background: rgb(176, 176, 176);
 }
 
 .order input:hover + .actions + .fa-search {
-    background: rgb(200, 200, 200);
+    background: rgb(255, 255, 255);
 }
 
 input:hover {

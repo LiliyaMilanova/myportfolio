@@ -46,8 +46,9 @@ nav.main li {
 
 nav.main ul li a {
     display: block;
-    color: rgb(255, 255, 255);
+    color: rgb(178, 178, 178);
     text-decoration: none;
+    font-weight: bold;
     padding-left: 3rem;
     border: solid transparent;
     border-width: 0.5rem 0;
@@ -55,7 +56,8 @@ nav.main ul li a {
 
 nav.main li:hover > a,
 nav.main a:hover {
-    color: rgb(155, 45, 189);
+    color: rgb(255, 255, 255);
+    transition-duration: 0.1s;
 }
 
 

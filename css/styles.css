@@ -131,6 +131,13 @@ body {
     background: rgb(0, 0, 0);
 }
 
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    flex: 1 0 100%;
+}
+
 .wrapper .about {
     flex: 0 0 30%;
     padding: 0 1rem 0 3rem;

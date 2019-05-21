@@ -59,7 +59,7 @@ body {
 }
 
 .button:hover {
-    border: transparent;
+    border: rgb(96, 28, 117);
     background: rgb(96, 28, 117);
 }
 

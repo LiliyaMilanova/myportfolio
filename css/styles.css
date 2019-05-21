@@ -1024,6 +1024,11 @@ img.hover-shadow {
         font-weight: 800;
         margin: 0 0 0 2rem;
     }
+    
+    .info > p,
+    .info > .button {
+        margin: 0 0 0 2rem;
+    }
 
     .what {
         width: 90%;

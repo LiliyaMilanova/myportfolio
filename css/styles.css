@@ -52,16 +52,14 @@ body {
     margin-top: 1rem;
     font-weight: bold;
     text-decoration: none;
-    text-transform: uppercase;
     padding: 0.5rem 1rem;
     border-radius: 2rem;
-    color: rgb(0, 0, 0);
-    background: rgb(249, 174, 24);
+    color: rgb(255, 255, 255);
+    background: rgb(155, 45, 189);
 }
 
 .button:hover {
-    color: rgb(255, 255, 255);
-    background: rgb(0, 0, 0);
+    background: rgb(96, 28, 117);
 }
 
 #secondary-button {

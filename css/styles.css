@@ -190,7 +190,7 @@ body {
 }
 
 .social a:hover {
-    color: rgb(249, 174, 24);
+    color: #6C5E6A;
 }
 
 .footer-nav a {
@@ -200,22 +200,7 @@ body {
 }
 
 .footer-nav a:hover {
-    color: rgb(249, 174, 24);
-}
-
-.portfolio ul:nth-child(1) a:hover {
-    color: rgb(0, 102, 160);
-}
-
-.portfolio ul:nth-child(2) a:hover {
-    color: rgb(155, 45, 189);
-}
-
-.portfolio ul:nth-child(3) a:hover {
-    color: rgb(0, 153, 10);
-}
-.portfolio ul:nth-child(4) a:hover {
-    color: rgb(192, 17, 17);
+    color: #6C5E6A;
 }
 
 #logo {
@@ -319,7 +304,7 @@ body {
     rgba(99, 43, 134, 0.7)),
     url(/myportfolio/images/header-graphic-design.jpg);
     background-size: cover;
-    padding: 6rem 0;
+    padding: 8rem 0;
     box-shadow: 0 0.5rem 3rem 0 inset rgba(0, 0, 0, 0.5);
 }
 

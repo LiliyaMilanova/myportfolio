@@ -88,7 +88,7 @@ input:hover {
     outline: none;
     margin-top: 2.2rem;
     border-radius: 0.4rem;
-    border: 1px solid rgb(249, 174, 24);
+    border: 1px solid #000000);
 }
 
 #graphic-contact-icon {
@@ -111,7 +111,7 @@ input:hover {
 }
 
 #graphic-contact-icon > .social a:hover {
-    color: rgb(249, 174, 24);
+    color: #6C5E6A);
 }
 
 .contact-fields {
@@ -133,25 +133,26 @@ input:hover {
     margin: 0.2rem 0;
     padding: 0.5rem;
     font-size: 0.8rem;
-    border-radius: 0.5rem;
-    color: rgb(0, 0, 0);
-    background: rgb(249, 174, 24);
+    border-radius: 2rem;
+    color: #FFFFFF);
+    background: #923D88;
 }
 
 #submit:hover {
-    color: rgb(255, 255, 255);
-    background: rgb(0, 0, 0);
+    background: #6C5E6A);
 }
 
 #reset {
     margin-top: 1.5rem;
     background: none;
-    color: rgb(0, 0, 0);
-    border: 1px solid rgb(200, 200, 200);
+    color: #6C5E6A);
+    border: 1px solid #6C5E6A);
 }
 
 #reset:hover {
-    background: rgb(200, 200, 200);
+    color: #FFFFFF);
+    border: 1px solid #6C5E6A);
+    background: #6C5E6A);
 }
 
 textarea {

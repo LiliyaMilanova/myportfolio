@@ -53,16 +53,16 @@ body {
     margin-left: 10rem;
     margin-top: 1rem;
     font-weight: bold;
+    letter-spacing: 1px;
     text-decoration: none;
     padding: 0.5rem 5rem;
     border-radius: 2rem;
     color: rgb(255, 255, 255);
-    border: 1px solid rgb(255, 255, 255);
+    background-color: #ACC566;
 }
 
 .button:hover {
-    border: rgb(96, 28, 117);
-    background: rgb(96, 28, 117);
+    background-color: #30461E;
 }
 
 #secondary-button {

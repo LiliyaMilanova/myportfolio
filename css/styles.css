@@ -588,8 +588,8 @@ body {
     padding: 5rem 0;
 }
 
-.project-web > .img img{
-    padding-left: 1rem;
+.project-web > .img img {
+    padding: 2rem 3rem;
 }
 
 .blok-web {

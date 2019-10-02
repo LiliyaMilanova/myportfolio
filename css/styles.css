@@ -768,8 +768,8 @@ img.hover-shadow {
 /* style for video.html*/
 
 .header-section-video {
-    background-image: linear-gradient(0deg, rgba(15, 50, 50, 0.8),
-    rgba(192, 17, 17, 0.7)),
+    background-image: linear-gradient(0deg, rgba(192, 17, 17, 0.8),
+    rgba(108, 94, 106, 0.7)),
     url(/myportfolio/images/header-video.jpg);
     background-size: cover;
     background-position: center;
@@ -779,8 +779,8 @@ img.hover-shadow {
 
 .video:first-child {
     font-weight: 800;
-    background-image: linear-gradient(120deg, rgba(192, 17, 17, 0.8),
-    rgba(15, 50, 50, 0.8));
+    background-image: linear-gradient(120deg, rgba(192, 17, 17, 1),
+    rgba(108, 94, 106, 1));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     padding-left: 1rem;
@@ -791,7 +791,7 @@ img.hover-shadow {
 .video-container {
     display: flex;
     align-items: flex-start;
-    padding: 5rem 0;
+    padding: 7rem 0;
 }
 
 .video-container:nth-child(odd) {

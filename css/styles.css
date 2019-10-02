@@ -210,8 +210,8 @@ body {
 /* style for about-me.html*/
 
 .header-about-me {
-    background-image: linear-gradient(0deg, rgba(15, 50, 50, 0.4),
-    rgba(249, 174, 24, 1)),
+    background-image: linear-gradient(0deg, rgba(106, 94, 106, 0.7),
+    rgba(146, 61, 136, 1)),
     url(/myportfolio/images/header-about-me.jpg);
     background-size: cover;
     padding: 9rem 0 6rem 0;
@@ -229,7 +229,7 @@ body {
     align-items: center;
     background-image: url(/myportfolio/images/backgound-section-about-me.png);
     background-size: cover;
-    padding: 5rem;
+    padding: 7rem;
 }
 
 .avatar {
@@ -251,7 +251,7 @@ body {
 .avatar ul li {
     align-self: flex-start;
     padding-bottom: 0.5rem;
-    color: rgb(102, 102, 102);
+    color: rgb(146, 61, 136);
 }
 
 .avatar ul li:first-child {
@@ -261,7 +261,7 @@ body {
 .avatar .fas {
     font-size: 0.8rem;
     padding-right: 0.3rem;
-    color: rgb(249, 174, 24);
+    color: rgb(146, 61, 136);
 }
 
 .avatar img {
@@ -276,11 +276,11 @@ body {
 }
 
 .info-about h2 {
-    background-image: linear-gradient(120deg, rgba(249, 174, 24, 1),
-    rgba(15, 50, 50, 0.8));
+    background-image: linear-gradient(120deg, rgba(146, 61, 136, 1),
+    rgba(106, 94, 106, 0.8));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    border-left: 3px solid rgb(249, 174, 24);
+    border-left: 3px solid rgb(146, 61, 136);
     padding-left: 1rem;
 }
 

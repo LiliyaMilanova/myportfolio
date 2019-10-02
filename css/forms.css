@@ -204,11 +204,11 @@ textarea:hover {
 .back-to-top .fas {
     text-decoration: none;
     font-size: 2rem;
-    color: rgb(150, 150, 150);
+    color: #B0B0B0;
 }
 
 .back-to-top a:hover {
-    color: rgb(0, 0, 0);
+    color: #923D88;
 }
 
 @media screen and (max-width: 1124px) {

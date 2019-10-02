@@ -46,7 +46,7 @@ nav.main li {
 
 nav.main ul li a {
     display: block;
-    color: rgb(178, 178, 178);
+    color: #B0B0B0;
     text-decoration: none;
     font-weight: bold;
     padding-left: 3rem;
@@ -117,11 +117,11 @@ nav.main li:hover > ul {
 
 #secondary-navbar li a {
     text-decoration: none;
-    color: #FFFFFF;
+    color: #B0B0B0;
 }
 
 #secondary-navbar li a:hover {
-    color: #6C5E6A;;
+    color: #000000;
 }
 
 /* style for project-navbar*/

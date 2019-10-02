@@ -589,7 +589,7 @@ body {
 }
 
 .project-web > .img img {
-    padding: 2rem 3rem;
+    padding: 2rem 1rem 1rem;
 }
 
 .blok-web {
@@ -902,7 +902,7 @@ img.hover-shadow {
     }
 
     .project-web > .img img{
-        padding-left: 0;
+        padding: 0;
     }
 
     .border {

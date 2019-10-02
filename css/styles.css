@@ -38,6 +38,8 @@ body {
 .header p {
     color: rgb(255, 255, 255);
     margin: 0 0 0 10rem;
+    text-transform: uppercase;
+    letter-spacing: 3px;
 }
 
 .info {

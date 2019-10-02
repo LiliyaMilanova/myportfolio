@@ -117,7 +117,7 @@ nav.main li:hover > ul {
 
 #secondary-navbar li a {
     text-decoration: none;
-    color: rgb(255, 255, 255);
+    color: #6C5E6A;
 }
 
 #secondary-navbar li a:hover {
@@ -147,15 +147,15 @@ nav.main li:hover > ul {
 }
 
 .project-navbar li a:hover {
-    color: rgb(0, 102, 160);
+    color: #6C5E6A;
 }
 
 #nav-bar-web li a:hover {
-    color: rgb(155, 45, 189);
+    color: #6C5E6A);
 }
 
 #nav-bar-photographs li a:hover {
-    color: rgb(0, 153, 10);
+    color: #6C5E6A;
 }
 
 /* style for page-nav*/

@@ -251,7 +251,7 @@ body {
 .avatar ul li {
     align-self: flex-start;
     padding-bottom: 0.5rem;
-    color: rgb(146, 61, 136);
+    color: rgb(0, 0, 0);
 }
 
 .avatar ul li:first-child {

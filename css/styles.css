@@ -108,7 +108,8 @@ body {
 }
 
 .what span {
-    text-align: center;
+    width: 30%;
+    margin: auto;
 }
 
 .what > h4 {

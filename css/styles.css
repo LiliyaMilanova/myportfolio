@@ -127,6 +127,15 @@ body {
     color: rgb(108, 94, 106);
 }
 
+.project-links li a {
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.project-links li a:hover {
+    color: rgb(146, 61, 136);
+}
+
 
 /* footer*/
 

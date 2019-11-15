@@ -231,6 +231,10 @@ textarea:hover {
     .contact-fields {
         width: 100%;
     }
+    
+    .contact-submit {
+        
+    }
 
     #contactinpit {
         width: 100%;
@@ -238,7 +242,7 @@ textarea:hover {
 
     #reset,
     #submit {
-        width: 49%;
+        width: 100%;
     }
 }
 

@@ -875,6 +875,11 @@ img.hover-shadow {
        max-width: 100%;
        height: auto;
    }
+    
+     .blok {
+        flex-direction: column;
+        align-items: center;
+    }
 
    .img-wrap {
        flex-direction: column;
@@ -976,11 +981,6 @@ img.hover-shadow {
     .project-description {
         width: 90%;
         padding: 0;
-    }
-
-    .blok {
-        flex-direction: column;
-        align-items: center;
     }
 
     .blok-subtitle,

@@ -87,15 +87,12 @@ body {
     display: flex;
     flex-direction: column;
     margin: 4rem auto;
-    align-items: center;
     width: 90%;
     border: 1px solid #000000;
-    border-radius: 0.4rem;
 }
 
 .wrap-content {
     display: flex;
-    flex-wrap: wrap;
     align-items: flex-start;
     margin: 2rem 0 1.3rem 0;
 }
@@ -127,12 +124,12 @@ body {
     color: rgb(108, 94, 106);
 }
 
-.project-links li a {
+.project-links a {
     list-style-type: none;
     text-decoration: none;
 }
 
-.project-links li a:hover {
+.project-links a:hover {
     color: rgb(146, 61, 136);
 }
 

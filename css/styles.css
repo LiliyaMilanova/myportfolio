@@ -129,12 +129,12 @@ text-align: center;
     color: rgb(108, 94, 106);
 }
 
-.project-links li {
+.what ul li a {
     list-style-type: none;
     text-decoration: none;
 }
 
-.project-links li:hover {
+.what ul li a:hover {
     color: rgb(146, 61, 136);
 }
 

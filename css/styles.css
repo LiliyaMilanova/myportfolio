@@ -852,25 +852,6 @@ img.hover-shadow {
 }
 
 @media screen and (max-width: 1200px) {
-    .third-img,
-    .secondary-img {
-        display: flex;
-        flex-direction: column;
-        margin: 0 auto;
-    }
-
-    .third-img span,
-    .secondary-img span {
-        text-align: center;
-    }
-
-    .secondary-img span:nth-child(2) {
-        padding-left: 0
-    }
-    
-}
-
-@media screen and (max-width: 1200px) {
     .base-img {
         width: 100%;
     }
@@ -945,6 +926,22 @@ img.hover-shadow {
 
     .video-frame {
         margin: 0 auto;
+    }
+    
+        .third-img,
+    .secondary-img {
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+    }
+
+    .third-img span,
+    .secondary-img span {
+        text-align: center;
+    }
+
+    .secondary-img span:nth-child(2) {
+        padding-left: 0
     }
 }
 

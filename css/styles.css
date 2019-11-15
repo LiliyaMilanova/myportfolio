@@ -129,8 +129,13 @@ text-align: center;
     color: rgb(108, 94, 106);
 }
 
-.what ul li a {
+.what ul li {
     list-style-type: none;
+}
+
+
+.what ul li a {
+    color: rgb(0, 0, 0);
     text-decoration: none;
 }
 

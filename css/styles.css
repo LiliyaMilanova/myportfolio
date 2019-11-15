@@ -870,7 +870,7 @@ img.hover-shadow {
     
 }
 
-@media screen and (max-width: 1124px) {
+@media screen and (max-width: 1200px) {
     .base-img {
         width: 100%;
     }

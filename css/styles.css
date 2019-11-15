@@ -855,7 +855,11 @@ img.hover-shadow {
     .project-third-type > .blok-subtitle {
         width: 100%;
     }
-
+    
+    .secondary-img {
+        align-items: center;
+    }
+    
 @media screen and (max-width: 1200px) {
     .base-img {
         width: 100%;

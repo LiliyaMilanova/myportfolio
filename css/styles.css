@@ -345,7 +345,7 @@ text-align: center;
 
 .descriptions {
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     flex-wrap: wrap;
     margin: 0rem auto;
     padding-top: 3rem;

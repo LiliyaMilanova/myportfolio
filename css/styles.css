@@ -880,6 +880,13 @@ img.hover-shadow {
         flex-direction: column;
         align-items: center;
     }
+    
+    .blok-subtitle,
+    .internal-title {
+        width: 90%;
+        margin: 0 auto;
+        padding: 0 1.5rem 2rem 1.5rem;
+    }
 
    .img-wrap {
        flex-direction: column;
@@ -981,13 +988,6 @@ img.hover-shadow {
     .project-description {
         width: 90%;
         padding: 0;
-    }
-
-    .blok-subtitle,
-    .internal-title {
-        width: 90%;
-        margin: 0 auto;
-        padding: 0 1.5rem 2rem 1.5rem;
     }
 
     .simple-img {

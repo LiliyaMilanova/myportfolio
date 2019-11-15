@@ -78,6 +78,10 @@ body {
     background: rgb(249, 174, 24);
 }
 
+#curcle {
+text-align: center;
+}
+
 #button-404 {
     align-self: center;
     margin: 0.5rem 1rem 7rem 1rem;
@@ -125,12 +129,12 @@ body {
     color: rgb(108, 94, 106);
 }
 
-.project-links a {
+.project-links li {
     list-style-type: none;
     text-decoration: none;
 }
 
-.project-links a:hover {
+.project-links li:hover {
     color: rgb(146, 61, 136);
 }
 

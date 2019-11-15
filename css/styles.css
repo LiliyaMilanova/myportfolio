@@ -107,7 +107,7 @@ text-align: center;
     flex-direction: column;
     flex-wrap: wrap;
     margin: 3rem auto;
-    width: 40%;
+    width: 25%;
 }
 
 .what span {
@@ -944,6 +944,10 @@ img.hover-shadow {
 }
 
 @media screen and (max-width: 800px) {
+    
+    .what {
+        width: 90%;
+    }
 
     .header-section-design,
     .header-section-web-design,
@@ -1030,10 +1034,6 @@ img.hover-shadow {
     .info > p,
     .info > .button {
         margin: 0 0 0 2rem;
-    }
-
-    .what {
-        width: 90%;
     }
 
     .img {

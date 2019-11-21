@@ -339,7 +339,6 @@ text-align: center;
 .wrapper-items {
     display: flex;
     flex-direction: column;
-    background: rgb(249, 249, 249);
 }
 
 .descriptions {

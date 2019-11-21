@@ -545,10 +545,7 @@ text-align: center;
 .internal-title h3,
 .project-description h2 {
     font-weight: 800;
-    background: -webkit-linear-gradient(120deg, rgba(108, 94, 106, 1),
-    rgba(0, 102, 160, 0.9));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: rgb(0, 102, 160);
     padding-left: 1rem;
     margin-top: 0;
     border-left: 3px solid rgb(0, 102, 160);
@@ -587,10 +584,7 @@ text-align: center;
 
 .web:first-child {
     font-weight: 800;
-    background-image: linear-gradient(120deg, rgba(108, 94, 106, 1),
-    rgba(146, 61, 136, 1));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: rgb(108, 94, 106);
     padding-left: 1rem;
     margin-top: 0;
     border-left: 3px solid rgb(108, 94, 106);
@@ -650,10 +644,7 @@ text-align: center;
 
 .photo:first-child {
     font-weight: 800;
-    background-image: linear-gradient(120deg, rgba(172, 197, 102, 1),
-    rgba(108, 94, 106, 1));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: rgb(172, 197, 102);
     padding-left: 1rem;
     margin-top: 0;
     border-left: 3px solid rgb(172, 197, 102);
@@ -795,10 +786,7 @@ img.hover-shadow {
 
 .video:first-child {
     font-weight: 800;
-    background-image: linear-gradient(120deg, rgba(192, 17, 17, 1),
-    rgba(108, 94, 106, 1));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: rgb(192, 17, 17);
     padding-left: 1rem;
     margin-top: 0;
     border-left: 3px solid rgb(192, 17, 17);

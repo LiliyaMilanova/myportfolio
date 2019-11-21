@@ -25,6 +25,7 @@ h1 + h2 {
 }
 
 p {
+    font-family: Comfortaa;
     margin: 0;
     padding-bottom: 1.618rem;
     color: rgb(50, 50, 50);

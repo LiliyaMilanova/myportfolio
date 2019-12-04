@@ -30,12 +30,12 @@ body {
 .header h1 {
     font-size: 3.5rem;
     font-weight: bold;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     margin: 0 0 0 10rem;
 }
 
 .header p {
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     margin: 0 0 0 10rem;
     text-transform: uppercase;
     letter-spacing: 3px;
@@ -56,8 +56,8 @@ body {
     text-decoration: none;
     padding: 0.5rem 5rem;
     border-radius: 2rem;
-    color: rgb(255, 255, 255);
-    border: 1px solid rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border: 1px solid rgb(0, 0, 0);
 }
 
 .button:hover {

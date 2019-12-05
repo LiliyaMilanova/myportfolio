@@ -107,7 +107,7 @@ text-align: center;
     rgba(0, 102, 160, 0.7)),
     url(/myportfolio/images/section_graphic_design_image.jpg);
     background-size: cover;
-    padding: 6rem 0;
+    padding: 6rem;
 
 .what {
     display: flex;

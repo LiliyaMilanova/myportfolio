@@ -118,11 +118,6 @@ text-align: center;
     width: 50%;
 }
 
-.what span {
-    width: 30%;
-    margin: auto;
-}
-
 .what h3 {
    text-align: center;
 }
@@ -130,6 +125,12 @@ text-align: center;
 .what h3 a {
     text-decoration: none;
     color: rgb(255, 255, 255);
+}
+
+/
+.what span {
+    width: 30%;
+    margin: auto;
 }
 
 .what h4 a:hover {
@@ -149,6 +150,7 @@ text-align: center;
 .what ul li a:hover {
     color: rgb(146, 61, 136);
 }
+/
 
 
 /* footer*/

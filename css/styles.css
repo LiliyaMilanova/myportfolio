@@ -106,7 +106,6 @@ text-align: center;
     background-image: linear-gradient(120deg, rgba(0, 0, 0, 0.7),
     rgba(0, 0, 0, 0.7)),
     url(/myportfolio/images/section_graphic_design_image.jpg);
-    background-color: rgba(0, 0, 0, 0.7);
     background-size: cover;
     padding: 6rem;
  }

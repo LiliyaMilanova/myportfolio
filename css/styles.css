@@ -86,8 +86,8 @@ body {
 .wrap {
     display: flex;
     flex-direction: column;
-    margin: 2rem auto;
-    width: 90%;
+    margin: 6rem auto;
+    width: 96%;
 }
 
 .wrap h2 {
@@ -98,7 +98,7 @@ text-align: center;
     display: flex;
     flex-wrap: wrap;
     align-items: flex-start;
-    margin: 2rem 0 1.3rem 0;
+    margin: 6rem 0;
 }
 
 .what {

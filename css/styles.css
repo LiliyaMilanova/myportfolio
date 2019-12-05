@@ -108,6 +108,7 @@ text-align: center;
     url(/myportfolio/images/section_graphic_design_image.jpg);
     background-size: cover;
     padding: 6rem;
+ }
 
 .what {
     display: flex;

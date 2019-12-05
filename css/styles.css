@@ -19,7 +19,7 @@ body {
 .header {
     display: flex;
     flex-wrap: wrap;
-    background-image: url(/myportfolio/images/header.jpg);
+    background-image: url(/myportfolio/images/hero-image.jpg);
     background-size: cover;
     padding: 18rem 0 30rem 0;
     max-width: 100%;

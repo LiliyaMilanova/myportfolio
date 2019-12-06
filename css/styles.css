@@ -482,7 +482,7 @@ text-align: center;
     display: flex;
     flex-direction: column;
     width: 50%;
-    padding: 0 3rem 2rem 6rem;
+    padding: 0 2rem 0 2rem;
 }
 
 .blok-subtitle h3 {
@@ -903,9 +903,9 @@ img.hover-shadow {
     
     .blok-subtitle,
     .internal-title {
-        width: 90%;
+        width: 60%;
         margin: 0 auto;
-        padding: 0 1.5rem 2rem 1.5rem;
+        padding: 0 0 2rem 0;
     }
 
    .img-wrap {

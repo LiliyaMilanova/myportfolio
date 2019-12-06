@@ -19,6 +19,7 @@ body {
 .header {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     background-image: url(/myportfolio/images/hero_image.jpg);
     background-size: cover;
     padding: 18rem 0 30rem 0;
@@ -31,12 +32,11 @@ body {
     font-size: 3.5rem;
     font-weight: bold;
     color: rgb(0, 0, 0);
-    margin: 0 0 0 10rem;
+    margin: 0;
 }
 
 .header p {
     color: rgb(0, 0, 0);
-    margin: 0 0 0 10rem;
     text-transform: uppercase;
     letter-spacing: 3px;
 }
@@ -44,7 +44,7 @@ body {
 .info {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
 }
 
 .button {

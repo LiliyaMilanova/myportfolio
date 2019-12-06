@@ -880,7 +880,8 @@ img.hover-shadow {
    }
 
    .project-description {
-        width: 90%;
+        width: 60%;
+        padding-top: 1rem;
         margin: 0 auto;
    }
   

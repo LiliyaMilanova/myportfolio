@@ -116,6 +116,30 @@ text-align: center;
     padding: 6rem;
  }
 
+.section-web-design {
+    background-image: linear-gradient(120deg, rgba(0, 0, 0, 0.7),
+    rgba(0, 0, 0, 0.7)),
+    url(/myportfolio/images/section_web_design_image.jpg);
+    background-size: cover;
+    padding: 6rem;
+ }
+
+.section-photographs-design {
+    background-image: linear-gradient(120deg, rgba(0, 0, 0, 0.7),
+    rgba(0, 0, 0, 0.7)),
+    url(/myportfolio/images/section_photographs_image.jpg);
+    background-size: cover;
+    padding: 6rem;
+ }
+
+.section-video-design {
+    background-image: linear-gradient(120deg, rgba(0, 0, 0, 0.7),
+    rgba(0, 0, 0, 0.7)),
+    url(/myportfolio/images/section_video_image.jpg);
+    background-size: cover;
+    padding: 6rem;
+ }
+
 .section-graphic-design:hover {
     background-image: url(/myportfolio/images/section_graphic_design_image.jpg);
     color: rgb(0, 0, 0);

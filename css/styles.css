@@ -118,6 +118,7 @@ text-align: center;
 
 .section-graphic-design:hover {
     background-image: url(/myportfolio/images/section_graphic_design_image.jpg);
+    color: rgb(0, 0, 0);
  }
 
 .what h3 {

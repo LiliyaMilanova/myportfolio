@@ -1075,6 +1075,9 @@ img.hover-shadow {
     .wrap {
     width: 100%;
 }
+    .what h3 {
+    font-size: 1rem;
+}
     
     .wrap-content {
         flex-direction: column;

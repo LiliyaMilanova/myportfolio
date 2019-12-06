@@ -1004,7 +1004,9 @@ img.hover-shadow {
     .base-img img {
         max-width: 100%;  
     }
-
+    
+    .blok-subtitle, 
+    .internal-title,
     .project-description {
         width: 90%;
         padding: 0;

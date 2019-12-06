@@ -381,7 +381,6 @@ text-align: center;
 .base-img {
     width: 40%;
     padding: 0 1rem;
-    margin: 3rem auto;
     text-align: center;
 }
 
@@ -869,10 +868,6 @@ img.hover-shadow {
     .secondary-img {
         display: flex;
         justify-content: center;
-    }
-    
-    .project-description {
-        padding-left: 5rem;
     }
     
 @media screen and (max-width: 1200px) {

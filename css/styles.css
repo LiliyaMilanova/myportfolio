@@ -928,7 +928,7 @@ img.hover-shadow {
         margin: 0 auto;
     }
     
-        .third-img,
+     .third-img,
     .secondary-img {
         display: flex;
         flex-direction: column;
@@ -1019,11 +1019,6 @@ img.hover-shadow {
         font-size: 3rem;
         font-weight: 800;
         margin: 0;
-    }
-    
-    .info > p,
-    .info > .button {
-        margin: 0 0 0 2rem;
     }
 
     .img {

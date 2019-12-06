@@ -272,8 +272,6 @@ text-align: center;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: url(/myportfolio/images/backgound-section-about-me.png);
-    background-size: cover;
     padding: 7rem;
 }
 
@@ -405,9 +403,7 @@ text-align: center;
     align-items: flex-start;
     padding: 7rem 0;
     background-image: linear-gradient(90deg, rgba(249, 249, 249, 1),
-    rgba(200, 200, 200, 0.8)),
-    url(/myportfolio/images/section-border-background.png);
-    background-repeat: no-repeat;
+    rgba(200, 200, 200, 0.8));
 }
 
 .project-two-type {
@@ -421,9 +417,7 @@ text-align: center;
     flex-wrap: wrap;
     padding: 7rem 0;
     background-image: linear-gradient(90deg, rgba(0, 102, 160, 1),
-    rgba(108, 94, 106, 0.9)),
-    url(/myportfolio/images/section-border-background.png);
-    background-repeat: no-repeat;
+    rgba(108, 94, 106, 0.9));
     clip-path: ellipse(100% 60% at 50% 40%);
 }
 

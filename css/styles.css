@@ -148,17 +148,20 @@ text-align: center;
 
 .section-web-design:hover {
     background-image: linear-gradient(-120deg, rgba(108, 94, 106, 0.8),
-    rgba(146, 61, 136, 0.9));
+    rgba(146, 61, 136, 0.9)),
+    url(/myportfolio/images/section_web_design_image.jpg);
  }
 
 .section-photographs:hover {
     background-image: linear-gradient(-120deg, rgba(108, 94, 106, 0.8),
-    rgba(136, 197, 102, 0.9));
+    rgba(136, 197, 102, 0.9)),
+    url(/myportfolio/images/section_photographs_image.jpg);
  }
 
 .section-video:hover {
     background-image linear-gradient(-120deg, rgba(108, 94, 106, 0.8),
-    rgba(192, 17, 17, 0.8));
+    rgba(192, 17, 17, 0.8)),
+    url(/myportfolio/images/section_video_image.jpg);
  }
 
 .what h3 {

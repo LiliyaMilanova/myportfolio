@@ -124,7 +124,7 @@ text-align: center;
     padding: 6rem;
  }
 
-.section-photographs-design {
+.section-photographs {
     background-image: linear-gradient(120deg, rgba(0, 0, 0, 0.7),
     rgba(0, 0, 0, 0.7)),
     url(/myportfolio/images/section_photographs_image.jpg);
@@ -132,7 +132,7 @@ text-align: center;
     padding: 6rem;
  }
 
-.section-video-design {
+.section-video {
     background-image: linear-gradient(120deg, rgba(0, 0, 0, 0.7),
     rgba(0, 0, 0, 0.7)),
     url(/myportfolio/images/section_video_image.jpg);

@@ -372,13 +372,14 @@ text-align: center;
 .descriptions {
     display: flex;
     align-items: center;
+    justify-content: center;
     flex-wrap: wrap;
     margin: 0rem auto;
     padding-top: 3rem;
 }
 
 .base-img {
-    width: 49%;
+    width: 40%;
     padding: 0 1rem;
     margin: 3rem auto;
     text-align: center;
@@ -387,8 +388,7 @@ text-align: center;
 .project-description {
     display: flex;
     flex-direction: column;
-    padding-right: 10rem;
-    width: 50%;
+    width: 40%;
 }
 
 .project {

@@ -463,7 +463,8 @@ text-align: center;
 
 .blok {
     display: flex;
-    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
     background-size: cover;
     background-repeat: no-repeat;
     background-image: linear-gradient(90deg, rgba(0, 102, 160, 1),
@@ -476,7 +477,7 @@ text-align: center;
 .blok-subtitle {
     display: flex;
     flex-direction: column;
-    width: 50%;
+    width: 60%;
     padding: 0 2rem 0 6rem;
 }
 

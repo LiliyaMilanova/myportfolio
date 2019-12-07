@@ -966,6 +966,11 @@ img.hover-shadow {
     .what {
         width: 90%;
     }
+    
+    .avatar,
+    .info-about {
+        width: 70%;
+    }
 
     .header-section-design,
     .header-section-web-design,

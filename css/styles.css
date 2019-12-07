@@ -862,7 +862,7 @@ img.hover-shadow {
         justify-content: center;
     }
     
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1250px) {
     .base-img {
         width: 100%;
     }
@@ -948,7 +948,7 @@ img.hover-shadow {
         margin: 0 auto;
     }
     
-     .third-img,
+    .third-img,
     .secondary-img {
         display: flex;
         flex-direction: column;

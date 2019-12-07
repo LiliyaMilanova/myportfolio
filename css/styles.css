@@ -375,8 +375,8 @@ text-align: center;
 }
 
 .base-img {
-    margin: 0 1rem;
     text-align: center;
+    padding: 1rem;
 }
 
 .project-description {
@@ -986,7 +986,6 @@ img.hover-shadow {
 
     .base-img {
         width: 100%;
-        margin: 2rem auto;
     }
 
     .base-img img {

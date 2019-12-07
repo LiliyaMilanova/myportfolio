@@ -382,7 +382,7 @@ text-align: center;
 .project-description {
     margin: 0rem auto;
     padding-top: 6rem;
-    width: 60%;
+    width: 50%;
 }
 
 .project {
@@ -476,7 +476,7 @@ text-align: center;
 .blok-subtitle {
     display: flex;
     flex-direction: column;
-    width: 40%;
+    width: 50%;
     padding: 0 2rem 0 6rem;
 }
 

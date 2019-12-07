@@ -1090,12 +1090,20 @@ img.hover-shadow {
 }
 
 @media screen and (max-width: 500px) {
+    
+    .header {
+        padding: 10rem 0 20rem 0;
+}
+    
+    .button {
+        padding: 0.5rem 7rem;
+}
 
     .wrap {
-    width: 100%;
+        width: 100%;
 }
     .what h3 {
-    font-size: 1rem;
+        font-size: 1rem;
 }
     
     .wrap-content {

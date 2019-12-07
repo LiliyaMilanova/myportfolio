@@ -212,13 +212,6 @@ textarea:hover {
     color: #6C5E6A;
 }
 
-@media screen and (min-width: 1400px) {
-    
-     .contact-form {
-        max-width: 50%;
-    }
-
-
 @media screen and (max-width: 1124px) {
 
     .contact-form {

@@ -370,10 +370,6 @@ text-align: center;
 }
 
 .descriptions {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
     margin: 0rem auto;
     padding-top: 3rem;
 }
@@ -384,9 +380,9 @@ text-align: center;
 }
 
 .project-description {
-    display: flex;
-    flex-direction: column;
-    width: 40%;
+    margin: 0rem auto;
+    padding-top: 3rem;
+    width: 60%;
 }
 
 .project {

@@ -861,11 +861,8 @@ img.hover-shadow {
 }
 
 @media screen and (max-width: 1450px) {
-    .project-third-type > .blok-subtitle {
-        width: 100%;
-    }
     
-    .secondary-img {
+      .secondary-img {
         display: flex;
         justify-content: center;
     }

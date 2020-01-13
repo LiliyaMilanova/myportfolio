@@ -466,7 +466,6 @@ text-align: center;
     rgba(108, 94, 106, 0.8)),
     url(/myportfolio/images/background-graphic-design-studentski.jpg);
     padding: 9rem 0;
-    clip-path: ellipse(100% 60% at 50% 40%);
 }
 
 .blok-subtitle {

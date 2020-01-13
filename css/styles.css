@@ -400,6 +400,8 @@ text-align: center;
 }
 
 .project-two-type {
+    display: flex;
+    flex-direction: column;
     padding: 7rem 0;
 }
 

@@ -20,7 +20,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    background-image: url(/myportfolio/images/hero_image_my_portfolio.png);
+    background-image: url(/myportfolio/images/hero_image_my_portfolio.jpg);
     background-size: cover;
     padding: 18rem 0 32rem 0;
     max-width: 100%;

@@ -1052,6 +1052,10 @@ img.hover-shadow {
         font-weight: 800;
         margin: 0;
     }
+    
+    .info {
+        padding: 0 5rem 5rem 5rem;
+    }
 
     .img {
         max-width: 100%;
@@ -1107,6 +1111,10 @@ img.hover-shadow {
     .header {
         padding: 10rem 0 20rem 0;
 }
+    
+     .info {
+        padding: 0 0 0 2rem;
+    }
     
     .button {
         padding: 0.5rem 7rem;

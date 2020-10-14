@@ -56,6 +56,12 @@ body {
     animation: fadeInUp3 2.5s 3s both alternate infinite;
  }
 
+@keyframes fadeInUp3 {
+  from {top:200px;}
+  to {top:400px;}
+}
+
+
 .button {
     text-align: center;
     margin-top: 1rem;

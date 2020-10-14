@@ -973,7 +973,11 @@ img.hover-shadow {
 
 @media screen and (max-width: 800px) {
     
-    .what {
+    .header {
+          padding: 15rem 0 6rem 0;    
+     }
+    
+     .what {
         width: 90%;
     }
     

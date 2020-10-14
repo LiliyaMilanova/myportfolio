@@ -44,6 +44,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 0 10rem 5rem 10rem;
 }
 
 .p_absoulte {

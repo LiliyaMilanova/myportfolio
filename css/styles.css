@@ -19,7 +19,7 @@ body {
 .header {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-around;
     background-color: rgb(250, 250, 250);
     background-image: url(/myportfolio/images/my-portfolio-hero-image.png);
     padding: 15rem 0 33rem 0;

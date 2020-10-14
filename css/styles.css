@@ -58,7 +58,7 @@ body {
 
 @keyframes fadeInUp3 {
   from { transform: translate(-1px, -2px); }
-  to { transform: translate(-10px, -20px); }
+  to { transform: translate(-100px, -200px); }
 }
 
 

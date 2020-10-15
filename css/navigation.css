@@ -93,11 +93,6 @@ a:link {
     border-bottom: 3px solid rgb(0, 102, 160);
 }
 
-a:link:hover; a:link:visited {
-    color: rgba(108, 94, 106);
-    border-bottom: 3px solid rgba(108, 94, 106);
-}
-
 /* style for secondary-navbar*/
 
 #secondary-navbar ul {

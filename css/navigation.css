@@ -87,12 +87,6 @@ nav.main li:hover > ul {
 
 }
 
-a:link {
-    color: rgb(0, 102, 160);
-    text-decoration: none;
-    border-bottom: 3px solid rgb(0, 102, 160);
-}
-
 /* style for secondary-navbar*/
 
 #secondary-navbar ul {

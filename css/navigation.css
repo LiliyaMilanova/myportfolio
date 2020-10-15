@@ -86,6 +86,11 @@ nav.main li:hover > ul {
     display: none;
 
 }
+
+a:link {
+    color: rgb(0, 102, 160);
+}
+
 /* style for secondary-navbar*/
 
 #secondary-navbar ul {

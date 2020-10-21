@@ -652,6 +652,7 @@ text-align: center;
 
 .img-wrap {
     display: flex;
+    flex-direction: column;
     padding: 7rem 0;
 }
 

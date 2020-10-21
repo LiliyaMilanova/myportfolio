@@ -562,9 +562,11 @@ text-align: center;
 
 .internal-title {
     display: flex;
-    flex-direction: column;
     width: 50%;
     margin: 0 auto;
+    padding-bottom: 2rem;
+    flex-direction: column;
+
 }
 
 .internal-title h3,

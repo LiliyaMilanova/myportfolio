@@ -464,7 +464,7 @@ text-align: center;
 }
 
 .img img{
-    margin-bottom: 1rem;
+    margin: 1rem;
 }
 
 .small-img img {
@@ -892,7 +892,8 @@ img.hover-shadow {
     
     .project-web img,
     .border img,
-    .project img {
+    .project img,
+    .external-branding img {
        max-width: 100%;
        height: auto;
    }

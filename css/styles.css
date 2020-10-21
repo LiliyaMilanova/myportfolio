@@ -433,6 +433,11 @@ text-align: center;
     padding: 1rem 0;
 }
 
+.simple-img .span {
+    margin: 0 auto;
+}
+
+
 .third-img {
     margin: 0 auto;
     padding: 0 1rem;
@@ -486,7 +491,7 @@ text-align: center;
     display: flex;
     flex-direction: column;
     width: 50%;
-    padding: 0 2rem 0 6rem;
+    margin: 0 auto;
 }
 
 .blok-subtitle h3 {

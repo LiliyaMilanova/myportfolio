@@ -429,8 +429,8 @@ text-align: center;
 }
 
 .simple-img {
-    width: 50%;
     margin: 0 auto;
+    padding: 1rem 0;
 }
 
 .third-img {

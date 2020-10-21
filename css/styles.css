@@ -605,6 +605,9 @@ text-align: center;
     justify-content: flex-start;
 }
 
+ a.img:hover {
+     background-image : url(/myportfolio/images/banner_web_link_from_slunchice_shop_hover.jpg);
+
 /* style for web-design.html*/
 
 .header-section-web-design {

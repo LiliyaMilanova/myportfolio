@@ -557,6 +557,7 @@ text-align: center;
     display: flex;
     flex-direction: column;
     width: 50%;
+    margin: 0 auto;
     padding: 0 3rem 2rem 6rem;
 }
 

@@ -411,7 +411,7 @@ text-align: center;
     flex-wrap: wrap;
     align-items: flex-start;
     padding: 7rem 0;
-    background-image: color (249, 249, 249);
+    background-color: rgb (249, 249, 249);
 }
 
 .project-two-type {

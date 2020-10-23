@@ -34,7 +34,7 @@ nav.main ul ul {
     pointer-events: none;
     position: absolute;
     top: 100%; left: 0;
-    background: rgb(50, 50, 50);
+    background-color: #241133;
     transform: translateY(-2rem);
     box-shadow:0 0.2rem 0.5rem 0 inset rgba(0, 0, 0, 0.6);
 }

@@ -222,6 +222,7 @@ text-align: center;
 .footer-nav ul {
     margin: 0;
     padding: 0.5rem 1rem;
+    list-style-type: none;
 }
 
 .footer-nav ul li {

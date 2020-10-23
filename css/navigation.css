@@ -114,7 +114,7 @@ nav.main li:hover > ul {
     padding: 0.3rem;
     font-size: 0.9rem;
     text-align: center;
-    background: rgb(50, 50, 50);  
+    background-color: #150621;
 }
 
 #secondary-navbar li a {
